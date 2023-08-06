@@ -573,7 +573,8 @@ if __name__ == "__main__":
             device.stop()
             print ("Stopped: ", not device.is_running())
 
-            if not try_to(lambda: not device.is_connected(), device.disconnect, 10):
+            if not try_to(lambda: not device.is_connected(), device.
+                          ct, 10):
                 print("unable to disconnect")
                 exit(1)
             print("Disconnected")
