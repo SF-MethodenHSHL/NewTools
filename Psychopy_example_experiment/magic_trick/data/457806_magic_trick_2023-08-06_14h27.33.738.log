@@ -1,0 +1,1330 @@
+1.8974 	ERROR 	Support for the `sounddevice` audio backend is not available this session. Please install `psychopy-sounddevice` and restart the session to enable support.
+4.7844 	WARNING 	User requested fullscreen with size [1707 1067], but screen is actually [2560, 1600]. Using actual size
+5.1560 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000206A2CC6A60>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000206A2CC6A00>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000206A2CC6730>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x00000206A3CE65B0>, multiSample=False, name='window1', numSamples=2, pos=(-2560, 0), screen=0, size=array([2560, 1600]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+5.1561 	EXP 	window1: mouseVisible = True
+5.1561 	EXP 	window1: backgroundImage = ''
+5.1561 	EXP 	window1: backgroundFit = 'none'
+5.1561 	EXP 	window1: mouseVisible = False
+5.1561 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+5.1561 	EXP 	window1: recordFrameIntervals = False
+5.2164 	EXP 	window1: recordFrameIntervals = True
+5.2832 	EXP 	Screen (0) actual frame rate measured at 164.81Hz
+5.2832 	EXP 	window1: recordFrameIntervals = False
+6.9354 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='press to begin\n', units='height', win=Window(...), wrapWidth=1)
+6.9533 	EXP 	Created card_1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='card_1', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([300., 400.]), texRes=128.0, units='pix', win=Window(...))
+6.9641 	EXP 	Created card_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='card_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([300., 400.]), texRes=128.0, units='pix', win=Window(...))
+6.9858 	EXP 	Created card_3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='card_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([300., 400.]), texRes=128.0, units='pix', win=Window(...))
+6.9983 	EXP 	Created card_4 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='card_4', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([300., 400.]), texRes=128.0, units='pix', win=Window(...))
+7.0109 	EXP 	Created card_5 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='card_5', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([300., 400.]), texRes=128.0, units='pix', win=Window(...))
+7.0370 	EXP 	Created card_6 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='card_6', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([300., 400.]), texRes=128.0, units='pix', win=Window(...))
+7.0501 	EXP 	Created card_7 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-8.0, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='card_7', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([300., 400.]), texRes=128.0, units='pix', win=Window(...))
+7.0626 	EXP 	Created card_8 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-9.0, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='card_8', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([300., 400.]), texRes=128.0, units='pix', win=Window(...))
+7.0752 	EXP 	Created card_9 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-10.0, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='card_9', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([300., 400.]), texRes=128.0, units='pix', win=Window(...))
+7.0763 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+7.0943 	EXP 	Created card_shown = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='card_shown', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([300., 400.]), texRes=128.0, units='pix', win=Window(...))
+7.1861 	EXP 	text_2: autoDraw = True
+36.6441 	DATA 	Mouse: Left button down, pos=(1500,724)
+36.7446 	DATA 	Mouse:  Left button up, pos=(1500,724)
+37.6067 	WARNING 	Requested image '5_of_hearts' not found but similar filename '5_of_hearts.png' exists. This will be used instead but changing the filename is advised.
+37.6235 	WARNING 	Requested image '6_of_spades' not found but similar filename '6_of_spades.png' exists. This will be used instead but changing the filename is advised.
+37.6400 	WARNING 	Requested image '7_of_spades' not found but similar filename '7_of_spades.png' exists. This will be used instead but changing the filename is advised.
+37.6564 	WARNING 	Requested image '8_of_clubs' not found but similar filename '8_of_clubs.png' exists. This will be used instead but changing the filename is advised.
+37.6735 	WARNING 	Requested image '3_of_hearts' not found but similar filename '3_of_hearts.png' exists. This will be used instead but changing the filename is advised.
+37.6904 	WARNING 	Requested image 'ace_of_hearts' not found but similar filename 'ace_of_hearts.png' exists. This will be used instead but changing the filename is advised.
+37.7073 	WARNING 	Requested image '4_of_spades' not found but similar filename '4_of_spades.png' exists. This will be used instead but changing the filename is advised.
+37.7240 	WARNING 	Requested image '9_of_diamonds' not found but similar filename '9_of_diamonds.png' exists. This will be used instead but changing the filename is advised.
+37.7408 	WARNING 	Requested image 'king_of_diamonds' not found but similar filename 'king_of_diamonds.png' exists. This will be used instead but changing the filename is advised.
+37.7620 	DATA 	Keypress: space
+37.7690 	EXP 	text_2: autoDraw = False
+37.7690 	EXP 	card_1: image = '5_of_hearts'
+37.7690 	EXP 	card_2: image = '6_of_spades'
+37.7690 	EXP 	card_3: image = '7_of_spades'
+37.7690 	EXP 	card_4: image = '8_of_clubs'
+37.7690 	EXP 	card_5: image = '3_of_hearts'
+37.7690 	EXP 	card_6: image = 'ace_of_hearts'
+37.7690 	EXP 	card_7: image = '4_of_spades'
+37.7690 	EXP 	card_8: image = '9_of_diamonds'
+37.7690 	EXP 	card_9: image = 'king_of_diamonds'
+37.7690 	EXP 	card_1: autoDraw = True
+37.7690 	EXP 	card_2: autoDraw = True
+37.7690 	EXP 	card_3: autoDraw = True
+37.7690 	EXP 	card_4: autoDraw = True
+37.7690 	EXP 	card_5: autoDraw = True
+37.7690 	EXP 	card_6: autoDraw = True
+37.7690 	EXP 	card_7: autoDraw = True
+37.7690 	EXP 	card_8: autoDraw = True
+37.7690 	EXP 	card_9: autoDraw = True
+41.3182 	EXP 	Created sequence: random, trialTypes=1, nReps=180, seed=None
+41.3187 	EXP 	New trial (rep=0, index=0): None
+41.3195 	DATA 	Keypress: space
+41.3234 	EXP 	card_1: autoDraw = False
+41.3234 	EXP 	card_2: autoDraw = False
+41.3234 	EXP 	card_3: autoDraw = False
+41.3234 	EXP 	card_4: autoDraw = False
+41.3234 	EXP 	card_5: autoDraw = False
+41.3234 	EXP 	card_6: autoDraw = False
+41.3234 	EXP 	card_7: autoDraw = False
+41.3234 	EXP 	card_8: autoDraw = False
+41.3234 	EXP 	card_9: autoDraw = False
+41.3234 	EXP 	text: autoDraw = True
+41.8201 	WARNING 	Requested image '3_of_hearts' not found but similar filename '3_of_hearts.png' exists. This will be used instead but changing the filename is advised.
+41.8407 	EXP 	text: autoDraw = False
+41.8407 	EXP 	card_shown: image = '3_of_hearts'
+41.8407 	EXP 	card_shown: autoDraw = True
+42.8185 	EXP 	New trial (rep=1, index=0): None
+42.8230 	EXP 	card_shown: autoDraw = False
+42.8230 	EXP 	text: autoDraw = True
+43.3170 	WARNING 	Requested image '9_of_diamonds' not found but similar filename '9_of_diamonds.png' exists. This will be used instead but changing the filename is advised.
+43.3266 	EXP 	text: autoDraw = False
+43.3266 	EXP 	text: autoDraw = False
+43.3266 	EXP 	card_shown: image = '9_of_diamonds'
+43.3266 	EXP 	card_shown: autoDraw = True
+44.3176 	EXP 	New trial (rep=2, index=0): None
+44.3220 	EXP 	card_shown: autoDraw = False
+44.3220 	EXP 	text: autoDraw = True
+44.8196 	WARNING 	Requested image '3_of_hearts' not found but similar filename '3_of_hearts.png' exists. This will be used instead but changing the filename is advised.
+44.8298 	EXP 	text: autoDraw = False
+44.8298 	EXP 	card_shown: image = '3_of_hearts'
+44.8298 	EXP 	card_shown: autoDraw = True
+45.8198 	EXP 	New trial (rep=3, index=0): None
+45.8249 	EXP 	card_shown: autoDraw = False
+45.8249 	EXP 	text: autoDraw = True
+46.3225 	WARNING 	Requested image '8_of_clubs' not found but similar filename '8_of_clubs.png' exists. This will be used instead but changing the filename is advised.
+46.3326 	EXP 	text: autoDraw = False
+46.3326 	EXP 	card_shown: image = '8_of_clubs'
+46.3326 	EXP 	card_shown: autoDraw = True
+47.3221 	EXP 	New trial (rep=4, index=0): None
+47.3276 	EXP 	card_shown: autoDraw = False
+47.3276 	EXP 	text: autoDraw = True
+47.8191 	WARNING 	Requested image '9_of_diamonds' not found but similar filename '9_of_diamonds.png' exists. This will be used instead but changing the filename is advised.
+47.8276 	EXP 	text: autoDraw = False
+47.8276 	EXP 	card_shown: image = '9_of_diamonds'
+47.8276 	EXP 	card_shown: autoDraw = True
+48.8184 	EXP 	New trial (rep=5, index=0): None
+48.8230 	EXP 	card_shown: autoDraw = False
+48.8230 	EXP 	text: autoDraw = True
+49.3208 	WARNING 	Requested image '3_of_hearts' not found but similar filename '3_of_hearts.png' exists. This will be used instead but changing the filename is advised.
+49.3309 	EXP 	text: autoDraw = False
+49.3309 	EXP 	card_shown: image = '3_of_hearts'
+49.3309 	EXP 	card_shown: autoDraw = True
+50.3204 	EXP 	New trial (rep=6, index=0): None
+50.3258 	EXP 	card_shown: autoDraw = False
+50.3258 	EXP 	text: autoDraw = True
+50.8176 	WARNING 	Requested image 'ace_of_hearts' not found but similar filename 'ace_of_hearts.png' exists. This will be used instead but changing the filename is advised.
+50.8274 	EXP 	text: autoDraw = False
+50.8274 	EXP 	card_shown: image = 'ace_of_hearts'
+50.8274 	EXP 	card_shown: autoDraw = True
+51.8179 	EXP 	New trial (rep=7, index=0): None
+51.8233 	EXP 	card_shown: autoDraw = False
+51.8233 	EXP 	text: autoDraw = True
+52.3227 	WARNING 	Requested image '8_of_clubs' not found but similar filename '8_of_clubs.png' exists. This will be used instead but changing the filename is advised.
+52.3328 	EXP 	text: autoDraw = False
+52.3328 	EXP 	card_shown: image = '8_of_clubs'
+52.3328 	EXP 	card_shown: autoDraw = True
+53.3223 	EXP 	New trial (rep=8, index=0): None
+53.3277 	EXP 	card_shown: autoDraw = False
+53.3277 	EXP 	text: autoDraw = True
+53.8192 	WARNING 	Requested image '5_of_hearts' not found but similar filename '5_of_hearts.png' exists. This will be used instead but changing the filename is advised.
+53.8279 	EXP 	text: autoDraw = False
+53.8279 	EXP 	card_shown: image = '5_of_hearts'
+53.8279 	EXP 	card_shown: autoDraw = True
+54.8230 	EXP 	New trial (rep=9, index=0): None
+54.8286 	EXP 	card_shown: autoDraw = False
+54.8286 	EXP 	text: autoDraw = True
+55.3229 	WARNING 	Requested image '7_of_spades' not found but similar filename '7_of_spades.png' exists. This will be used instead but changing the filename is advised.
+55.3324 	EXP 	text: autoDraw = False
+55.3324 	EXP 	card_shown: image = '7_of_spades'
+55.3324 	EXP 	card_shown: autoDraw = True
+56.3217 	EXP 	New trial (rep=10, index=0): None
+56.3272 	EXP 	card_shown: autoDraw = False
+56.3272 	EXP 	text: autoDraw = True
+56.8193 	WARNING 	Requested image '9_of_diamonds' not found but similar filename '9_of_diamonds.png' exists. This will be used instead but changing the filename is advised.
+56.8287 	EXP 	text: autoDraw = False
+56.8287 	EXP 	card_shown: image = '9_of_diamonds'
+56.8287 	EXP 	card_shown: autoDraw = True
+57.8182 	EXP 	New trial (rep=11, index=0): None
+57.8235 	EXP 	card_shown: autoDraw = False
+57.8235 	EXP 	text: autoDraw = True
+58.3222 	WARNING 	Requested image '5_of_hearts' not found but similar filename '5_of_hearts.png' exists. This will be used instead but changing the filename is advised.
+58.3321 	EXP 	text: autoDraw = False
+58.3321 	EXP 	card_shown: image = '5_of_hearts'
+58.3321 	EXP 	card_shown: autoDraw = True
+59.3225 	EXP 	New trial (rep=12, index=0): None
+59.3270 	EXP 	card_shown: autoDraw = False
+59.3270 	EXP 	text: autoDraw = True
+59.8185 	WARNING 	Requested image '4_of_spades' not found but similar filename '4_of_spades.png' exists. This will be used instead but changing the filename is advised.
+59.8287 	EXP 	text: autoDraw = False
+59.8287 	EXP 	card_shown: image = '4_of_spades'
+59.8287 	EXP 	card_shown: autoDraw = True
+60.8181 	EXP 	New trial (rep=13, index=0): None
+60.8235 	EXP 	card_shown: autoDraw = False
+60.8235 	EXP 	text: autoDraw = True
+61.3221 	WARNING 	Requested image '4_of_spades' not found but similar filename '4_of_spades.png' exists. This will be used instead but changing the filename is advised.
+61.3320 	EXP 	text: autoDraw = False
+61.3320 	EXP 	card_shown: image = '4_of_spades'
+61.3320 	EXP 	card_shown: autoDraw = True
+62.3213 	EXP 	New trial (rep=14, index=0): None
+62.3267 	EXP 	card_shown: autoDraw = False
+62.3267 	EXP 	text: autoDraw = True
+62.8183 	WARNING 	Requested image '6_of_spades' not found but similar filename '6_of_spades.png' exists. This will be used instead but changing the filename is advised.
+62.8285 	EXP 	text: autoDraw = False
+62.8285 	EXP 	card_shown: image = '6_of_spades'
+62.8285 	EXP 	card_shown: autoDraw = True
+63.8176 	EXP 	New trial (rep=15, index=0): None
+63.8232 	EXP 	card_shown: autoDraw = False
+63.8232 	EXP 	text: autoDraw = True
+64.3207 	WARNING 	Requested image 'ace_of_hearts' not found but similar filename 'ace_of_hearts.png' exists. This will be used instead but changing the filename is advised.
+64.3291 	EXP 	text: autoDraw = False
+64.3291 	EXP 	card_shown: image = 'ace_of_hearts'
+64.3291 	EXP 	card_shown: autoDraw = True
+65.3182 	EXP 	New trial (rep=16, index=0): None
+65.3238 	EXP 	card_shown: autoDraw = False
+65.3238 	EXP 	text: autoDraw = True
+65.8217 	WARNING 	Requested image '3_of_hearts' not found but similar filename '3_of_hearts.png' exists. This will be used instead but changing the filename is advised.
+65.8315 	EXP 	text: autoDraw = False
+65.8315 	EXP 	card_shown: image = '3_of_hearts'
+65.8315 	EXP 	card_shown: autoDraw = True
+66.8231 	EXP 	New trial (rep=17, index=0): None
+66.8284 	EXP 	card_shown: autoDraw = False
+66.8284 	EXP 	text: autoDraw = True
+67.3201 	WARNING 	Requested image 'ace_of_hearts' not found but similar filename 'ace_of_hearts.png' exists. This will be used instead but changing the filename is advised.
+67.3302 	EXP 	text: autoDraw = False
+67.3302 	EXP 	card_shown: image = 'ace_of_hearts'
+67.3302 	EXP 	card_shown: autoDraw = True
+68.3197 	EXP 	New trial (rep=18, index=0): None
+68.3252 	EXP 	card_shown: autoDraw = False
+68.3252 	EXP 	text: autoDraw = True
+68.8228 	WARNING 	Requested image 'king_of_diamonds' not found but similar filename 'king_of_diamonds.png' exists. This will be used instead but changing the filename is advised.
+68.8332 	EXP 	text: autoDraw = False
+68.8332 	EXP 	card_shown: image = 'king_of_diamonds'
+68.8332 	EXP 	card_shown: autoDraw = True
+69.8226 	EXP 	New trial (rep=19, index=0): None
+69.8276 	EXP 	card_shown: autoDraw = False
+69.8276 	EXP 	text: autoDraw = True
+70.3195 	WARNING 	Requested image '8_of_clubs' not found but similar filename '8_of_clubs.png' exists. This will be used instead but changing the filename is advised.
+70.3296 	EXP 	text: autoDraw = False
+70.3296 	EXP 	card_shown: image = '8_of_clubs'
+70.3296 	EXP 	card_shown: autoDraw = True
+71.3187 	EXP 	New trial (rep=20, index=0): None
+71.3242 	EXP 	card_shown: autoDraw = False
+71.3242 	EXP 	text: autoDraw = True
+71.8218 	WARNING 	Requested image 'king_of_diamonds' not found but similar filename 'king_of_diamonds.png' exists. This will be used instead but changing the filename is advised.
+71.8350 	EXP 	text: autoDraw = False
+71.8350 	EXP 	card_shown: image = 'king_of_diamonds'
+71.8350 	EXP 	card_shown: autoDraw = True
+72.8189 	EXP 	New trial (rep=21, index=0): None
+72.8266 	EXP 	card_shown: autoDraw = False
+72.8266 	EXP 	text: autoDraw = True
+73.3223 	WARNING 	Requested image '5_of_hearts' not found but similar filename '5_of_hearts.png' exists. This will be used instead but changing the filename is advised.
+73.3324 	EXP 	text: autoDraw = False
+73.3324 	EXP 	card_shown: image = '5_of_hearts'
+73.3324 	EXP 	card_shown: autoDraw = True
+74.3216 	EXP 	New trial (rep=22, index=0): None
+74.3268 	EXP 	card_shown: autoDraw = False
+74.3268 	EXP 	text: autoDraw = True
+74.8189 	WARNING 	Requested image '8_of_clubs' not found but similar filename '8_of_clubs.png' exists. This will be used instead but changing the filename is advised.
+74.8285 	EXP 	text: autoDraw = False
+74.8285 	EXP 	card_shown: image = '8_of_clubs'
+74.8285 	EXP 	card_shown: autoDraw = True
+75.8180 	EXP 	New trial (rep=23, index=0): None
+75.8236 	EXP 	card_shown: autoDraw = False
+75.8236 	EXP 	text: autoDraw = True
+76.3224 	WARNING 	Requested image '7_of_spades' not found but similar filename '7_of_spades.png' exists. This will be used instead but changing the filename is advised.
+76.3316 	EXP 	text: autoDraw = False
+76.3316 	EXP 	card_shown: image = '7_of_spades'
+76.3316 	EXP 	card_shown: autoDraw = True
+77.3231 	EXP 	New trial (rep=24, index=0): None
+77.3261 	EXP 	card_shown: autoDraw = False
+77.3261 	EXP 	text: autoDraw = True
+77.8181 	WARNING 	Requested image '6_of_spades' not found but similar filename '6_of_spades.png' exists. This will be used instead but changing the filename is advised.
+77.8294 	EXP 	text: autoDraw = False
+77.8294 	EXP 	card_shown: image = '6_of_spades'
+77.8294 	EXP 	card_shown: autoDraw = True
+78.8187 	EXP 	New trial (rep=25, index=0): None
+78.8259 	EXP 	card_shown: autoDraw = False
+78.8259 	EXP 	text: autoDraw = True
+79.3219 	WARNING 	Requested image 'king_of_diamonds' not found but similar filename 'king_of_diamonds.png' exists. This will be used instead but changing the filename is advised.
+79.3322 	EXP 	text: autoDraw = False
+79.3322 	EXP 	card_shown: image = 'king_of_diamonds'
+79.3322 	EXP 	card_shown: autoDraw = True
+80.3220 	EXP 	New trial (rep=26, index=0): None
+80.3268 	EXP 	card_shown: autoDraw = False
+80.3268 	EXP 	text: autoDraw = True
+80.8188 	WARNING 	Requested image '3_of_hearts' not found but similar filename '3_of_hearts.png' exists. This will be used instead but changing the filename is advised.
+80.8297 	EXP 	text: autoDraw = False
+80.8297 	EXP 	card_shown: image = '3_of_hearts'
+80.8297 	EXP 	card_shown: autoDraw = True
+81.8180 	EXP 	New trial (rep=27, index=0): None
+81.8249 	EXP 	card_shown: autoDraw = False
+81.8249 	EXP 	text: autoDraw = True
+82.3225 	WARNING 	Requested image '8_of_clubs' not found but similar filename '8_of_clubs.png' exists. This will be used instead but changing the filename is advised.
+82.3318 	EXP 	text: autoDraw = False
+82.3318 	EXP 	card_shown: image = '8_of_clubs'
+82.3318 	EXP 	card_shown: autoDraw = True
+83.3210 	EXP 	New trial (rep=28, index=0): None
+83.3268 	EXP 	card_shown: autoDraw = False
+83.3268 	EXP 	text: autoDraw = True
+83.8185 	WARNING 	Requested image 'king_of_diamonds' not found but similar filename 'king_of_diamonds.png' exists. This will be used instead but changing the filename is advised.
+83.8269 	EXP 	text: autoDraw = False
+83.8269 	EXP 	card_shown: image = 'king_of_diamonds'
+83.8269 	EXP 	card_shown: autoDraw = True
+84.8223 	EXP 	New trial (rep=29, index=0): None
+84.8278 	EXP 	card_shown: autoDraw = False
+84.8278 	EXP 	text: autoDraw = True
+85.3194 	WARNING 	Requested image 'ace_of_hearts' not found but similar filename 'ace_of_hearts.png' exists. This will be used instead but changing the filename is advised.
+85.3289 	EXP 	text: autoDraw = False
+85.3289 	EXP 	card_shown: image = 'ace_of_hearts'
+85.3289 	EXP 	card_shown: autoDraw = True
+86.3200 	EXP 	New trial (rep=30, index=0): None
+86.3250 	EXP 	card_shown: autoDraw = False
+86.3250 	EXP 	text: autoDraw = True
+86.8238 	WARNING 	Requested image '7_of_spades' not found but similar filename '7_of_spades.png' exists. This will be used instead but changing the filename is advised.
+86.8330 	EXP 	text: autoDraw = False
+86.8330 	EXP 	card_shown: image = '7_of_spades'
+86.8330 	EXP 	card_shown: autoDraw = True
+87.8222 	EXP 	New trial (rep=31, index=0): None
+87.8278 	EXP 	card_shown: autoDraw = False
+87.8278 	EXP 	text: autoDraw = True
+88.3198 	WARNING 	Requested image '3_of_hearts' not found but similar filename '3_of_hearts.png' exists. This will be used instead but changing the filename is advised.
+88.3298 	EXP 	text: autoDraw = False
+88.3298 	EXP 	card_shown: image = '3_of_hearts'
+88.3298 	EXP 	card_shown: autoDraw = True
+89.3208 	EXP 	New trial (rep=32, index=0): None
+89.3253 	EXP 	card_shown: autoDraw = False
+89.3253 	EXP 	text: autoDraw = True
+89.8243 	WARNING 	Requested image '8_of_clubs' not found but similar filename '8_of_clubs.png' exists. This will be used instead but changing the filename is advised.
+89.8345 	EXP 	text: autoDraw = False
+89.8345 	EXP 	card_shown: image = '8_of_clubs'
+89.8345 	EXP 	card_shown: autoDraw = True
+90.8175 	EXP 	New trial (rep=33, index=0): None
+90.8231 	EXP 	card_shown: autoDraw = False
+90.8231 	EXP 	text: autoDraw = True
+91.3222 	WARNING 	Requested image '9_of_diamonds' not found but similar filename '9_of_diamonds.png' exists. This will be used instead but changing the filename is advised.
+91.3303 	EXP 	text: autoDraw = False
+91.3303 	EXP 	card_shown: image = '9_of_diamonds'
+91.3303 	EXP 	card_shown: autoDraw = True
+92.3217 	EXP 	New trial (rep=34, index=0): None
+92.3251 	EXP 	card_shown: autoDraw = False
+92.3251 	EXP 	text: autoDraw = True
+92.8227 	WARNING 	Requested image '3_of_hearts' not found but similar filename '3_of_hearts.png' exists. This will be used instead but changing the filename is advised.
+92.8325 	EXP 	text: autoDraw = False
+92.8325 	EXP 	card_shown: image = '3_of_hearts'
+92.8325 	EXP 	card_shown: autoDraw = True
+93.8244 	EXP 	New trial (rep=35, index=0): None
+93.8286 	EXP 	card_shown: autoDraw = False
+93.8286 	EXP 	text: autoDraw = True
+94.3212 	WARNING 	Requested image '4_of_spades' not found but similar filename '4_of_spades.png' exists. This will be used instead but changing the filename is advised.
+94.3308 	EXP 	text: autoDraw = False
+94.3308 	EXP 	card_shown: image = '4_of_spades'
+94.3308 	EXP 	card_shown: autoDraw = True
+95.3211 	EXP 	New trial (rep=36, index=0): None
+95.3256 	EXP 	card_shown: autoDraw = False
+95.3256 	EXP 	text: autoDraw = True
+95.8173 	WARNING 	Requested image '9_of_diamonds' not found but similar filename '9_of_diamonds.png' exists. This will be used instead but changing the filename is advised.
+95.8273 	EXP 	text: autoDraw = False
+95.8273 	EXP 	card_shown: image = '9_of_diamonds'
+95.8273 	EXP 	card_shown: autoDraw = True
+96.8244 	EXP 	New trial (rep=37, index=0): None
+96.8284 	EXP 	card_shown: autoDraw = False
+96.8284 	EXP 	text: autoDraw = True
+97.3205 	WARNING 	Requested image '5_of_hearts' not found but similar filename '5_of_hearts.png' exists. This will be used instead but changing the filename is advised.
+97.3306 	EXP 	text: autoDraw = False
+97.3306 	EXP 	card_shown: image = '5_of_hearts'
+97.3306 	EXP 	card_shown: autoDraw = True
+98.3212 	EXP 	New trial (rep=38, index=0): None
+98.3253 	EXP 	card_shown: autoDraw = False
+98.3253 	EXP 	text: autoDraw = True
+98.8189 	WARNING 	Requested image 'king_of_diamonds' not found but similar filename 'king_of_diamonds.png' exists. This will be used instead but changing the filename is advised.
+98.8272 	EXP 	text: autoDraw = False
+98.8272 	EXP 	card_shown: image = 'king_of_diamonds'
+98.8272 	EXP 	card_shown: autoDraw = True
+99.8224 	EXP 	New trial (rep=39, index=0): None
+99.8279 	EXP 	card_shown: autoDraw = False
+99.8279 	EXP 	text: autoDraw = True
+100.3194 	WARNING 	Requested image 'ace_of_hearts' not found but similar filename 'ace_of_hearts.png' exists. This will be used instead but changing the filename is advised.
+100.3277 	EXP 	text: autoDraw = False
+100.3277 	EXP 	card_shown: image = 'ace_of_hearts'
+100.3277 	EXP 	card_shown: autoDraw = True
+101.3191 	EXP 	New trial (rep=40, index=0): None
+101.3240 	EXP 	card_shown: autoDraw = False
+101.3240 	EXP 	text: autoDraw = True
+101.8224 	WARNING 	Requested image 'ace_of_hearts' not found but similar filename 'ace_of_hearts.png' exists. This will be used instead but changing the filename is advised.
+101.8320 	EXP 	text: autoDraw = False
+101.8320 	EXP 	card_shown: image = 'ace_of_hearts'
+101.8320 	EXP 	card_shown: autoDraw = True
+102.8224 	EXP 	New trial (rep=41, index=0): None
+102.8279 	EXP 	card_shown: autoDraw = False
+102.8279 	EXP 	text: autoDraw = True
+103.3194 	WARNING 	Requested image '5_of_hearts' not found but similar filename '5_of_hearts.png' exists. This will be used instead but changing the filename is advised.
+103.3278 	EXP 	text: autoDraw = False
+103.3278 	EXP 	card_shown: image = '5_of_hearts'
+103.3278 	EXP 	card_shown: autoDraw = True
+104.3175 	EXP 	New trial (rep=42, index=0): None
+104.3226 	EXP 	card_shown: autoDraw = False
+104.3226 	EXP 	text: autoDraw = True
+104.8209 	WARNING 	Requested image '7_of_spades' not found but similar filename '7_of_spades.png' exists. This will be used instead but changing the filename is advised.
+104.8304 	EXP 	text: autoDraw = False
+104.8304 	EXP 	card_shown: image = '7_of_spades'
+104.8304 	EXP 	card_shown: autoDraw = True
+105.8204 	EXP 	New trial (rep=43, index=0): None
+105.8252 	EXP 	card_shown: autoDraw = False
+105.8252 	EXP 	text: autoDraw = True
+106.3228 	WARNING 	Requested image 'king_of_diamonds' not found but similar filename 'king_of_diamonds.png' exists. This will be used instead but changing the filename is advised.
+106.3328 	EXP 	text: autoDraw = False
+106.3328 	EXP 	card_shown: image = 'king_of_diamonds'
+106.3328 	EXP 	card_shown: autoDraw = True
+107.3223 	EXP 	New trial (rep=44, index=0): None
+107.3276 	EXP 	card_shown: autoDraw = False
+107.3276 	EXP 	text: autoDraw = True
+107.8197 	WARNING 	Requested image '4_of_spades' not found but similar filename '4_of_spades.png' exists. This will be used instead but changing the filename is advised.
+107.8297 	EXP 	text: autoDraw = False
+107.8297 	EXP 	card_shown: image = '4_of_spades'
+107.8297 	EXP 	card_shown: autoDraw = True
+108.8196 	EXP 	New trial (rep=45, index=0): None
+108.8244 	EXP 	card_shown: autoDraw = False
+108.8244 	EXP 	text: autoDraw = True
+109.3174 	WARNING 	Requested image 'ace_of_hearts' not found but similar filename 'ace_of_hearts.png' exists. This will be used instead but changing the filename is advised.
+109.3274 	EXP 	text: autoDraw = False
+109.3274 	EXP 	card_shown: image = 'ace_of_hearts'
+109.3274 	EXP 	card_shown: autoDraw = True
+110.3231 	EXP 	New trial (rep=46, index=0): None
+110.3287 	EXP 	card_shown: autoDraw = False
+110.3287 	EXP 	text: autoDraw = True
+110.8201 	WARNING 	Requested image 'king_of_diamonds' not found but similar filename 'king_of_diamonds.png' exists. This will be used instead but changing the filename is advised.
+110.8289 	EXP 	text: autoDraw = False
+110.8289 	EXP 	card_shown: image = 'king_of_diamonds'
+110.8289 	EXP 	card_shown: autoDraw = True
+111.8199 	EXP 	New trial (rep=47, index=0): None
+111.8252 	EXP 	card_shown: autoDraw = False
+111.8252 	EXP 	text: autoDraw = True
+112.3177 	WARNING 	Requested image '6_of_spades' not found but similar filename '6_of_spades.png' exists. This will be used instead but changing the filename is advised.
+112.3274 	EXP 	text: autoDraw = False
+112.3274 	EXP 	card_shown: image = '6_of_spades'
+112.3274 	EXP 	card_shown: autoDraw = True
+113.3230 	EXP 	New trial (rep=48, index=0): None
+113.3283 	EXP 	card_shown: autoDraw = False
+113.3283 	EXP 	text: autoDraw = True
+113.8200 	WARNING 	Requested image '5_of_hearts' not found but similar filename '5_of_hearts.png' exists. This will be used instead but changing the filename is advised.
+113.8308 	EXP 	text: autoDraw = False
+113.8308 	EXP 	card_shown: image = '5_of_hearts'
+113.8308 	EXP 	card_shown: autoDraw = True
+114.8201 	EXP 	New trial (rep=49, index=0): None
+114.8255 	EXP 	card_shown: autoDraw = False
+114.8255 	EXP 	text: autoDraw = True
+115.3178 	WARNING 	Requested image '4_of_spades' not found but similar filename '4_of_spades.png' exists. This will be used instead but changing the filename is advised.
+115.3272 	EXP 	text: autoDraw = False
+115.3272 	EXP 	card_shown: image = '4_of_spades'
+115.3272 	EXP 	card_shown: autoDraw = True
+116.3225 	EXP 	New trial (rep=50, index=0): None
+116.3281 	EXP 	card_shown: autoDraw = False
+116.3281 	EXP 	text: autoDraw = True
+116.8196 	WARNING 	Requested image '9_of_diamonds' not found but similar filename '9_of_diamonds.png' exists. This will be used instead but changing the filename is advised.
+116.8290 	EXP 	text: autoDraw = False
+116.8290 	EXP 	card_shown: image = '9_of_diamonds'
+116.8290 	EXP 	card_shown: autoDraw = True
+117.8190 	EXP 	New trial (rep=51, index=0): None
+117.8244 	EXP 	card_shown: autoDraw = False
+117.8244 	EXP 	text: autoDraw = True
+118.3219 	WARNING 	Requested image '6_of_spades' not found but similar filename '6_of_spades.png' exists. This will be used instead but changing the filename is advised.
+118.3312 	EXP 	text: autoDraw = False
+118.3312 	EXP 	card_shown: image = '6_of_spades'
+118.3312 	EXP 	card_shown: autoDraw = True
+119.3206 	EXP 	New trial (rep=52, index=0): None
+119.3260 	EXP 	card_shown: autoDraw = False
+119.3260 	EXP 	text: autoDraw = True
+119.8181 	WARNING 	Requested image '5_of_hearts' not found but similar filename '5_of_hearts.png' exists. This will be used instead but changing the filename is advised.
+119.8277 	EXP 	text: autoDraw = False
+119.8277 	EXP 	card_shown: image = '5_of_hearts'
+119.8277 	EXP 	card_shown: autoDraw = True
+120.8229 	EXP 	New trial (rep=53, index=0): None
+120.8284 	EXP 	card_shown: autoDraw = False
+120.8284 	EXP 	text: autoDraw = True
+121.3198 	WARNING 	Requested image 'ace_of_hearts' not found but similar filename 'ace_of_hearts.png' exists. This will be used instead but changing the filename is advised.
+121.3281 	EXP 	text: autoDraw = False
+121.3281 	EXP 	card_shown: image = 'ace_of_hearts'
+121.3281 	EXP 	card_shown: autoDraw = True
+122.3234 	EXP 	New trial (rep=54, index=0): None
+122.3289 	EXP 	card_shown: autoDraw = False
+122.3289 	EXP 	text: autoDraw = True
+122.8206 	WARNING 	Requested image '7_of_spades' not found but similar filename '7_of_spades.png' exists. This will be used instead but changing the filename is advised.
+122.8301 	EXP 	text: autoDraw = False
+122.8301 	EXP 	card_shown: image = '7_of_spades'
+122.8301 	EXP 	card_shown: autoDraw = True
+123.8198 	EXP 	New trial (rep=55, index=0): None
+123.8248 	EXP 	card_shown: autoDraw = False
+123.8248 	EXP 	text: autoDraw = True
+124.3225 	WARNING 	Requested image '4_of_spades' not found but similar filename '4_of_spades.png' exists. This will be used instead but changing the filename is advised.
+124.3318 	EXP 	text: autoDraw = False
+124.3318 	EXP 	card_shown: image = '4_of_spades'
+124.3318 	EXP 	card_shown: autoDraw = True
+125.3217 	EXP 	New trial (rep=56, index=0): None
+125.3270 	EXP 	card_shown: autoDraw = False
+125.3270 	EXP 	text: autoDraw = True
+125.8186 	WARNING 	Requested image '4_of_spades' not found but similar filename '4_of_spades.png' exists. This will be used instead but changing the filename is advised.
+125.8289 	EXP 	text: autoDraw = False
+125.8289 	EXP 	card_shown: image = '4_of_spades'
+125.8289 	EXP 	card_shown: autoDraw = True
+126.8183 	EXP 	New trial (rep=57, index=0): None
+126.8238 	EXP 	card_shown: autoDraw = False
+126.8238 	EXP 	text: autoDraw = True
+127.3234 	WARNING 	Requested image 'king_of_diamonds' not found but similar filename 'king_of_diamonds.png' exists. This will be used instead but changing the filename is advised.
+127.3335 	EXP 	text: autoDraw = False
+127.3335 	EXP 	card_shown: image = 'king_of_diamonds'
+127.3335 	EXP 	card_shown: autoDraw = True
+128.3226 	EXP 	New trial (rep=58, index=0): None
+128.3299 	EXP 	card_shown: autoDraw = False
+128.3299 	EXP 	text: autoDraw = True
+128.8196 	WARNING 	Requested image '3_of_hearts' not found but similar filename '3_of_hearts.png' exists. This will be used instead but changing the filename is advised.
+128.8279 	EXP 	text: autoDraw = False
+128.8279 	EXP 	card_shown: image = '3_of_hearts'
+128.8279 	EXP 	card_shown: autoDraw = True
+129.8232 	EXP 	New trial (rep=59, index=0): None
+129.8297 	EXP 	card_shown: autoDraw = False
+129.8297 	EXP 	text: autoDraw = True
+130.3205 	WARNING 	Requested image '5_of_hearts' not found but similar filename '5_of_hearts.png' exists. This will be used instead but changing the filename is advised.
+130.3306 	EXP 	text: autoDraw = False
+130.3306 	EXP 	card_shown: image = '5_of_hearts'
+130.3306 	EXP 	card_shown: autoDraw = True
+131.3205 	EXP 	New trial (rep=60, index=0): None
+131.3257 	EXP 	card_shown: autoDraw = False
+131.3257 	EXP 	text: autoDraw = True
+131.8174 	WARNING 	Requested image 'king_of_diamonds' not found but similar filename 'king_of_diamonds.png' exists. This will be used instead but changing the filename is advised.
+131.8378 	EXP 	text: autoDraw = False
+131.8378 	EXP 	card_shown: image = 'king_of_diamonds'
+131.8378 	EXP 	card_shown: autoDraw = True
+132.8206 	EXP 	New trial (rep=61, index=0): None
+132.8261 	EXP 	card_shown: autoDraw = False
+132.8261 	EXP 	text: autoDraw = True
+133.3176 	WARNING 	Requested image 'ace_of_hearts' not found but similar filename 'ace_of_hearts.png' exists. This will be used instead but changing the filename is advised.
+133.3273 	EXP 	text: autoDraw = False
+133.3273 	EXP 	card_shown: image = 'ace_of_hearts'
+133.3273 	EXP 	card_shown: autoDraw = True
+134.3228 	EXP 	New trial (rep=62, index=0): None
+134.3289 	EXP 	card_shown: autoDraw = False
+134.3289 	EXP 	text: autoDraw = True
+134.8202 	WARNING 	Requested image '7_of_spades' not found but similar filename '7_of_spades.png' exists. This will be used instead but changing the filename is advised.
+134.8303 	EXP 	text: autoDraw = False
+134.8303 	EXP 	card_shown: image = '7_of_spades'
+134.8303 	EXP 	card_shown: autoDraw = True
+135.8197 	EXP 	New trial (rep=63, index=0): None
+135.8253 	EXP 	card_shown: autoDraw = False
+135.8253 	EXP 	text: autoDraw = True
+136.3173 	WARNING 	Requested image '5_of_hearts' not found but similar filename '5_of_hearts.png' exists. This will be used instead but changing the filename is advised.
+136.3278 	EXP 	text: autoDraw = False
+136.3278 	EXP 	card_shown: image = '5_of_hearts'
+136.3278 	EXP 	card_shown: autoDraw = True
+137.3231 	EXP 	New trial (rep=64, index=0): None
+137.3285 	EXP 	card_shown: autoDraw = False
+137.3285 	EXP 	text: autoDraw = True
+137.8199 	WARNING 	Requested image '3_of_hearts' not found but similar filename '3_of_hearts.png' exists. This will be used instead but changing the filename is advised.
+137.8288 	EXP 	text: autoDraw = False
+137.8288 	EXP 	card_shown: image = '3_of_hearts'
+137.8288 	EXP 	card_shown: autoDraw = True
+138.8182 	EXP 	New trial (rep=65, index=0): None
+138.8238 	EXP 	card_shown: autoDraw = False
+138.8238 	EXP 	text: autoDraw = True
+139.3234 	WARNING 	Requested image '4_of_spades' not found but similar filename '4_of_spades.png' exists. This will be used instead but changing the filename is advised.
+139.3333 	EXP 	text: autoDraw = False
+139.3333 	EXP 	card_shown: image = '4_of_spades'
+139.3333 	EXP 	card_shown: autoDraw = True
+140.3229 	EXP 	New trial (rep=66, index=0): None
+140.3284 	EXP 	card_shown: autoDraw = False
+140.3284 	EXP 	text: autoDraw = True
+140.8200 	WARNING 	Requested image '7_of_spades' not found but similar filename '7_of_spades.png' exists. This will be used instead but changing the filename is advised.
+140.8300 	EXP 	text: autoDraw = False
+140.8300 	EXP 	card_shown: image = '7_of_spades'
+140.8300 	EXP 	card_shown: autoDraw = True
+141.8194 	EXP 	New trial (rep=67, index=0): None
+141.8244 	EXP 	card_shown: autoDraw = False
+141.8244 	EXP 	text: autoDraw = True
+142.3222 	WARNING 	Requested image 'king_of_diamonds' not found but similar filename 'king_of_diamonds.png' exists. This will be used instead but changing the filename is advised.
+142.3322 	EXP 	text: autoDraw = False
+142.3322 	EXP 	card_shown: image = 'king_of_diamonds'
+142.3322 	EXP 	card_shown: autoDraw = True
+143.3234 	EXP 	New trial (rep=68, index=0): None
+143.3269 	EXP 	card_shown: autoDraw = False
+143.3269 	EXP 	text: autoDraw = True
+143.8192 	WARNING 	Requested image '9_of_diamonds' not found but similar filename '9_of_diamonds.png' exists. This will be used instead but changing the filename is advised.
+143.8285 	EXP 	text: autoDraw = False
+143.8285 	EXP 	card_shown: image = '9_of_diamonds'
+143.8285 	EXP 	card_shown: autoDraw = True
+144.8183 	EXP 	New trial (rep=69, index=0): None
+144.8259 	EXP 	card_shown: autoDraw = False
+144.8259 	EXP 	text: autoDraw = True
+145.3236 	WARNING 	Requested image '7_of_spades' not found but similar filename '7_of_spades.png' exists. This will be used instead but changing the filename is advised.
+145.3331 	EXP 	text: autoDraw = False
+145.3331 	EXP 	card_shown: image = '7_of_spades'
+145.3331 	EXP 	card_shown: autoDraw = True
+146.3223 	EXP 	New trial (rep=70, index=0): None
+146.3279 	EXP 	card_shown: autoDraw = False
+146.3279 	EXP 	text: autoDraw = True
+146.8195 	WARNING 	Requested image 'ace_of_hearts' not found but similar filename 'ace_of_hearts.png' exists. This will be used instead but changing the filename is advised.
+146.8297 	EXP 	text: autoDraw = False
+146.8297 	EXP 	card_shown: image = 'ace_of_hearts'
+146.8297 	EXP 	card_shown: autoDraw = True
+147.8192 	EXP 	New trial (rep=71, index=0): None
+147.8242 	EXP 	card_shown: autoDraw = False
+147.8242 	EXP 	text: autoDraw = True
+148.3225 	WARNING 	Requested image 'ace_of_hearts' not found but similar filename 'ace_of_hearts.png' exists. This will be used instead but changing the filename is advised.
+148.3319 	EXP 	text: autoDraw = False
+148.3319 	EXP 	card_shown: image = 'ace_of_hearts'
+148.3319 	EXP 	card_shown: autoDraw = True
+149.3215 	EXP 	New trial (rep=72, index=0): None
+149.3266 	EXP 	card_shown: autoDraw = False
+149.3266 	EXP 	text: autoDraw = True
+149.8180 	WARNING 	Requested image '3_of_hearts' not found but similar filename '3_of_hearts.png' exists. This will be used instead but changing the filename is advised.
+149.8268 	EXP 	text: autoDraw = False
+149.8268 	EXP 	card_shown: image = '3_of_hearts'
+149.8268 	EXP 	card_shown: autoDraw = True
+150.8247 	EXP 	New trial (rep=73, index=0): None
+150.8274 	EXP 	card_shown: autoDraw = False
+150.8274 	EXP 	text: autoDraw = True
+151.3202 	WARNING 	Requested image '6_of_spades' not found but similar filename '6_of_spades.png' exists. This will be used instead but changing the filename is advised.
+151.3302 	EXP 	text: autoDraw = False
+151.3302 	EXP 	card_shown: image = '6_of_spades'
+151.3302 	EXP 	card_shown: autoDraw = True
+152.3208 	EXP 	New trial (rep=74, index=0): None
+152.3256 	EXP 	card_shown: autoDraw = False
+152.3256 	EXP 	text: autoDraw = True
+152.8175 	WARNING 	Requested image 'king_of_diamonds' not found but similar filename 'king_of_diamonds.png' exists. This will be used instead but changing the filename is advised.
+152.8282 	EXP 	text: autoDraw = False
+152.8282 	EXP 	card_shown: image = 'king_of_diamonds'
+152.8282 	EXP 	card_shown: autoDraw = True
+153.8179 	EXP 	New trial (rep=75, index=0): None
+153.8232 	EXP 	card_shown: autoDraw = False
+153.8232 	EXP 	text: autoDraw = True
+154.3231 	WARNING 	Requested image 'ace_of_hearts' not found but similar filename 'ace_of_hearts.png' exists. This will be used instead but changing the filename is advised.
+154.3332 	EXP 	text: autoDraw = False
+154.3332 	EXP 	card_shown: image = 'ace_of_hearts'
+154.3332 	EXP 	card_shown: autoDraw = True
+155.3237 	EXP 	New trial (rep=76, index=0): None
+155.3280 	EXP 	card_shown: autoDraw = False
+155.3280 	EXP 	text: autoDraw = True
+155.8225 	WARNING 	Requested image '4_of_spades' not found but similar filename '4_of_spades.png' exists. This will be used instead but changing the filename is advised.
+155.8320 	EXP 	text: autoDraw = False
+155.8320 	EXP 	card_shown: image = '4_of_spades'
+155.8320 	EXP 	card_shown: autoDraw = True
+156.8230 	EXP 	New trial (rep=77, index=0): None
+156.8268 	EXP 	card_shown: autoDraw = False
+156.8268 	EXP 	text: autoDraw = True
+157.3188 	WARNING 	Requested image '7_of_spades' not found but similar filename '7_of_spades.png' exists. This will be used instead but changing the filename is advised.
+157.3290 	EXP 	text: autoDraw = False
+157.3290 	EXP 	card_shown: image = '7_of_spades'
+157.3290 	EXP 	card_shown: autoDraw = True
+158.3188 	EXP 	New trial (rep=78, index=0): None
+158.3238 	EXP 	card_shown: autoDraw = False
+158.3238 	EXP 	text: autoDraw = True
+158.8224 	WARNING 	Requested image '8_of_clubs' not found but similar filename '8_of_clubs.png' exists. This will be used instead but changing the filename is advised.
+158.8317 	EXP 	text: autoDraw = False
+158.8317 	EXP 	card_shown: image = '8_of_clubs'
+158.8317 	EXP 	card_shown: autoDraw = True
+159.8208 	EXP 	New trial (rep=79, index=0): None
+159.8263 	EXP 	card_shown: autoDraw = False
+159.8263 	EXP 	text: autoDraw = True
+160.3178 	WARNING 	Requested image '4_of_spades' not found but similar filename '4_of_spades.png' exists. This will be used instead but changing the filename is advised.
+160.3257 	EXP 	text: autoDraw = False
+160.3257 	EXP 	card_shown: image = '4_of_spades'
+160.3257 	EXP 	card_shown: autoDraw = True
+161.3210 	EXP 	New trial (rep=80, index=0): None
+161.3265 	EXP 	card_shown: autoDraw = False
+161.3265 	EXP 	text: autoDraw = True
+161.8201 	WARNING 	Requested image '8_of_clubs' not found but similar filename '8_of_clubs.png' exists. This will be used instead but changing the filename is advised.
+161.8304 	EXP 	text: autoDraw = False
+161.8304 	EXP 	card_shown: image = '8_of_clubs'
+161.8304 	EXP 	card_shown: autoDraw = True
+162.8205 	EXP 	New trial (rep=81, index=0): None
+162.8253 	EXP 	card_shown: autoDraw = False
+162.8253 	EXP 	text: autoDraw = True
+163.3190 	WARNING 	Requested image 'ace_of_hearts' not found but similar filename 'ace_of_hearts.png' exists. This will be used instead but changing the filename is advised.
+163.3291 	EXP 	text: autoDraw = False
+163.3291 	EXP 	card_shown: image = 'ace_of_hearts'
+163.3291 	EXP 	card_shown: autoDraw = True
+164.3200 	EXP 	New trial (rep=82, index=0): None
+164.3239 	EXP 	card_shown: autoDraw = False
+164.3239 	EXP 	text: autoDraw = True
+164.8233 	WARNING 	Requested image '9_of_diamonds' not found but similar filename '9_of_diamonds.png' exists. This will be used instead but changing the filename is advised.
+164.8333 	EXP 	text: autoDraw = False
+164.8333 	EXP 	card_shown: image = '9_of_diamonds'
+164.8333 	EXP 	card_shown: autoDraw = True
+165.8188 	EXP 	New trial (rep=83, index=0): None
+165.8216 	EXP 	card_shown: autoDraw = False
+165.8216 	EXP 	text: autoDraw = True
+166.3203 	WARNING 	Requested image 'king_of_diamonds' not found but similar filename 'king_of_diamonds.png' exists. This will be used instead but changing the filename is advised.
+166.3303 	EXP 	text: autoDraw = False
+166.3303 	EXP 	card_shown: image = 'king_of_diamonds'
+166.3303 	EXP 	card_shown: autoDraw = True
+167.3204 	EXP 	New trial (rep=84, index=0): None
+167.3251 	EXP 	card_shown: autoDraw = False
+167.3251 	EXP 	text: autoDraw = True
+167.8183 	WARNING 	Requested image '4_of_spades' not found but similar filename '4_of_spades.png' exists. This will be used instead but changing the filename is advised.
+167.8281 	EXP 	text: autoDraw = False
+167.8281 	EXP 	card_shown: image = '4_of_spades'
+167.8281 	EXP 	card_shown: autoDraw = True
+168.8188 	EXP 	New trial (rep=85, index=0): None
+168.8231 	EXP 	card_shown: autoDraw = False
+168.8231 	EXP 	text: autoDraw = True
+169.3209 	WARNING 	Requested image '9_of_diamonds' not found but similar filename '9_of_diamonds.png' exists. This will be used instead but changing the filename is advised.
+169.3306 	EXP 	text: autoDraw = False
+169.3306 	EXP 	card_shown: image = '9_of_diamonds'
+169.3306 	EXP 	card_shown: autoDraw = True
+170.3208 	EXP 	New trial (rep=86, index=0): None
+170.3256 	EXP 	card_shown: autoDraw = False
+170.3256 	EXP 	text: autoDraw = True
+170.8177 	WARNING 	Requested image '3_of_hearts' not found but similar filename '3_of_hearts.png' exists. This will be used instead but changing the filename is advised.
+170.8280 	EXP 	text: autoDraw = False
+170.8280 	EXP 	card_shown: image = '3_of_hearts'
+170.8280 	EXP 	card_shown: autoDraw = True
+171.8181 	EXP 	New trial (rep=87, index=0): None
+171.8229 	EXP 	card_shown: autoDraw = False
+171.8229 	EXP 	text: autoDraw = True
+172.3165 	WARNING 	Requested image '6_of_spades' not found but similar filename '6_of_spades.png' exists. This will be used instead but changing the filename is advised.
+172.3262 	EXP 	text: autoDraw = False
+172.3262 	EXP 	text: autoDraw = False
+172.3262 	EXP 	card_shown: image = '6_of_spades'
+172.3262 	EXP 	card_shown: autoDraw = True
+173.3214 	EXP 	New trial (rep=88, index=0): None
+173.3269 	EXP 	card_shown: autoDraw = False
+173.3269 	EXP 	text: autoDraw = True
+173.8184 	WARNING 	Requested image '6_of_spades' not found but similar filename '6_of_spades.png' exists. This will be used instead but changing the filename is advised.
+173.8267 	EXP 	text: autoDraw = False
+173.8267 	EXP 	card_shown: image = '6_of_spades'
+173.8267 	EXP 	card_shown: autoDraw = True
+174.8237 	EXP 	New trial (rep=89, index=0): None
+174.8275 	EXP 	card_shown: autoDraw = False
+174.8275 	EXP 	text: autoDraw = True
+175.3194 	WARNING 	Requested image '6_of_spades' not found but similar filename '6_of_spades.png' exists. This will be used instead but changing the filename is advised.
+175.3293 	EXP 	text: autoDraw = False
+175.3293 	EXP 	card_shown: image = '6_of_spades'
+175.3293 	EXP 	card_shown: autoDraw = True
+176.3192 	EXP 	New trial (rep=90, index=0): None
+176.3237 	EXP 	card_shown: autoDraw = False
+176.3237 	EXP 	text: autoDraw = True
+176.8239 	WARNING 	Requested image 'ace_of_hearts' not found but similar filename 'ace_of_hearts.png' exists. This will be used instead but changing the filename is advised.
+176.8335 	EXP 	text: autoDraw = False
+176.8335 	EXP 	card_shown: image = 'ace_of_hearts'
+176.8335 	EXP 	card_shown: autoDraw = True
+177.8175 	EXP 	New trial (rep=91, index=0): None
+177.8226 	EXP 	card_shown: autoDraw = False
+177.8226 	EXP 	text: autoDraw = True
+178.3200 	WARNING 	Requested image '4_of_spades' not found but similar filename '4_of_spades.png' exists. This will be used instead but changing the filename is advised.
+178.3294 	EXP 	text: autoDraw = False
+178.3294 	EXP 	card_shown: image = '4_of_spades'
+178.3294 	EXP 	card_shown: autoDraw = True
+179.3189 	EXP 	New trial (rep=92, index=0): None
+179.3243 	EXP 	card_shown: autoDraw = False
+179.3243 	EXP 	text: autoDraw = True
+179.8218 	WARNING 	Requested image '8_of_clubs' not found but similar filename '8_of_clubs.png' exists. This will be used instead but changing the filename is advised.
+179.8311 	EXP 	text: autoDraw = False
+179.8311 	EXP 	card_shown: image = '8_of_clubs'
+179.8311 	EXP 	card_shown: autoDraw = True
+180.8206 	EXP 	New trial (rep=93, index=0): None
+180.8259 	EXP 	card_shown: autoDraw = False
+180.8259 	EXP 	text: autoDraw = True
+181.3176 	WARNING 	Requested image '8_of_clubs' not found but similar filename '8_of_clubs.png' exists. This will be used instead but changing the filename is advised.
+181.3303 	EXP 	text: autoDraw = False
+181.3303 	EXP 	card_shown: image = '8_of_clubs'
+181.3303 	EXP 	card_shown: autoDraw = True
+182.3197 	EXP 	New trial (rep=94, index=0): None
+182.3251 	EXP 	card_shown: autoDraw = False
+182.3251 	EXP 	text: autoDraw = True
+182.8228 	WARNING 	Requested image '7_of_spades' not found but similar filename '7_of_spades.png' exists. This will be used instead but changing the filename is advised.
+182.8320 	EXP 	text: autoDraw = False
+182.8320 	EXP 	card_shown: image = '7_of_spades'
+182.8320 	EXP 	card_shown: autoDraw = True
+183.8226 	EXP 	New trial (rep=95, index=0): None
+183.8277 	EXP 	card_shown: autoDraw = False
+183.8277 	EXP 	text: autoDraw = True
+184.3200 	WARNING 	Requested image '6_of_spades' not found but similar filename '6_of_spades.png' exists. This will be used instead but changing the filename is advised.
+184.3297 	EXP 	text: autoDraw = False
+184.3297 	EXP 	card_shown: image = '6_of_spades'
+184.3297 	EXP 	card_shown: autoDraw = True
+185.3188 	EXP 	New trial (rep=96, index=0): None
+185.3244 	EXP 	card_shown: autoDraw = False
+185.3244 	EXP 	text: autoDraw = True
+185.8228 	WARNING 	Requested image '9_of_diamonds' not found but similar filename '9_of_diamonds.png' exists. This will be used instead but changing the filename is advised.
+185.8311 	EXP 	text: autoDraw = False
+185.8311 	EXP 	card_shown: image = '9_of_diamonds'
+185.8311 	EXP 	card_shown: autoDraw = True
+186.8208 	EXP 	New trial (rep=97, index=0): None
+186.8259 	EXP 	card_shown: autoDraw = False
+186.8259 	EXP 	text: autoDraw = True
+187.3175 	WARNING 	Requested image '5_of_hearts' not found but similar filename '5_of_hearts.png' exists. This will be used instead but changing the filename is advised.
+187.3287 	EXP 	text: autoDraw = False
+187.3287 	EXP 	card_shown: image = '5_of_hearts'
+187.3287 	EXP 	card_shown: autoDraw = True
+188.3232 	EXP 	New trial (rep=98, index=0): None
+188.3284 	EXP 	card_shown: autoDraw = False
+188.3284 	EXP 	text: autoDraw = True
+188.8200 	WARNING 	Requested image 'king_of_diamonds' not found but similar filename 'king_of_diamonds.png' exists. This will be used instead but changing the filename is advised.
+188.8297 	EXP 	text: autoDraw = False
+188.8297 	EXP 	card_shown: image = 'king_of_diamonds'
+188.8297 	EXP 	card_shown: autoDraw = True
+189.8192 	EXP 	New trial (rep=99, index=0): None
+189.8241 	EXP 	card_shown: autoDraw = False
+189.8241 	EXP 	text: autoDraw = True
+190.3236 	WARNING 	Requested image '8_of_clubs' not found but similar filename '8_of_clubs.png' exists. This will be used instead but changing the filename is advised.
+190.3328 	EXP 	text: autoDraw = False
+190.3328 	EXP 	card_shown: image = '8_of_clubs'
+190.3328 	EXP 	card_shown: autoDraw = True
+191.3242 	EXP 	New trial (rep=100, index=0): None
+191.3272 	EXP 	card_shown: autoDraw = False
+191.3272 	EXP 	text: autoDraw = True
+191.8197 	WARNING 	Requested image '6_of_spades' not found but similar filename '6_of_spades.png' exists. This will be used instead but changing the filename is advised.
+191.8301 	EXP 	text: autoDraw = False
+191.8301 	EXP 	card_shown: image = '6_of_spades'
+191.8301 	EXP 	card_shown: autoDraw = True
+192.8199 	EXP 	New trial (rep=101, index=0): None
+192.8253 	EXP 	card_shown: autoDraw = False
+192.8253 	EXP 	text: autoDraw = True
+193.3174 	WARNING 	Requested image 'king_of_diamonds' not found but similar filename 'king_of_diamonds.png' exists. This will be used instead but changing the filename is advised.
+193.3272 	EXP 	text: autoDraw = False
+193.3272 	EXP 	card_shown: image = 'king_of_diamonds'
+193.3272 	EXP 	card_shown: autoDraw = True
+194.3235 	EXP 	New trial (rep=102, index=0): None
+194.3296 	EXP 	card_shown: autoDraw = False
+194.3296 	EXP 	text: autoDraw = True
+194.8193 	WARNING 	Requested image 'ace_of_hearts' not found but similar filename 'ace_of_hearts.png' exists. This will be used instead but changing the filename is advised.
+194.8276 	EXP 	text: autoDraw = False
+194.8276 	EXP 	card_shown: image = 'ace_of_hearts'
+194.8276 	EXP 	card_shown: autoDraw = True
+195.8232 	EXP 	New trial (rep=103, index=0): None
+195.8281 	EXP 	card_shown: autoDraw = False
+195.8281 	EXP 	text: autoDraw = True
+196.3206 	WARNING 	Requested image '8_of_clubs' not found but similar filename '8_of_clubs.png' exists. This will be used instead but changing the filename is advised.
+196.3301 	EXP 	text: autoDraw = False
+196.3301 	EXP 	card_shown: image = '8_of_clubs'
+196.3301 	EXP 	card_shown: autoDraw = True
+197.3194 	EXP 	New trial (rep=104, index=0): None
+197.3248 	EXP 	card_shown: autoDraw = False
+197.3248 	EXP 	text: autoDraw = True
+197.8177 	WARNING 	Requested image 'king_of_diamonds' not found but similar filename 'king_of_diamonds.png' exists. This will be used instead but changing the filename is advised.
+197.8308 	EXP 	text: autoDraw = False
+197.8308 	EXP 	card_shown: image = 'king_of_diamonds'
+197.8308 	EXP 	card_shown: autoDraw = True
+198.8202 	EXP 	New trial (rep=105, index=0): None
+198.8256 	EXP 	card_shown: autoDraw = False
+198.8256 	EXP 	text: autoDraw = True
+199.3230 	WARNING 	Requested image '5_of_hearts' not found but similar filename '5_of_hearts.png' exists. This will be used instead but changing the filename is advised.
+199.3331 	EXP 	text: autoDraw = False
+199.3331 	EXP 	card_shown: image = '5_of_hearts'
+199.3331 	EXP 	card_shown: autoDraw = True
+200.3239 	EXP 	New trial (rep=106, index=0): None
+200.3275 	EXP 	card_shown: autoDraw = False
+200.3275 	EXP 	text: autoDraw = True
+200.8195 	WARNING 	Requested image '9_of_diamonds' not found but similar filename '9_of_diamonds.png' exists. This will be used instead but changing the filename is advised.
+200.8304 	EXP 	text: autoDraw = False
+200.8304 	EXP 	card_shown: image = '9_of_diamonds'
+200.8304 	EXP 	card_shown: autoDraw = True
+201.8198 	EXP 	New trial (rep=107, index=0): None
+201.8270 	EXP 	card_shown: autoDraw = False
+201.8270 	EXP 	text: autoDraw = True
+202.3230 	WARNING 	Requested image '7_of_spades' not found but similar filename '7_of_spades.png' exists. This will be used instead but changing the filename is advised.
+202.3321 	EXP 	text: autoDraw = False
+202.3321 	EXP 	card_shown: image = '7_of_spades'
+202.3321 	EXP 	card_shown: autoDraw = True
+203.3217 	EXP 	New trial (rep=108, index=0): None
+203.3281 	EXP 	card_shown: autoDraw = False
+203.3281 	EXP 	text: autoDraw = True
+203.8187 	WARNING 	Requested image '5_of_hearts' not found but similar filename '5_of_hearts.png' exists. This will be used instead but changing the filename is advised.
+203.8305 	EXP 	text: autoDraw = False
+203.8305 	EXP 	card_shown: image = '5_of_hearts'
+203.8305 	EXP 	card_shown: autoDraw = True
+204.8199 	EXP 	New trial (rep=109, index=0): None
+204.8248 	EXP 	card_shown: autoDraw = False
+204.8248 	EXP 	text: autoDraw = True
+205.3231 	WARNING 	Requested image '5_of_hearts' not found but similar filename '5_of_hearts.png' exists. This will be used instead but changing the filename is advised.
+205.3324 	EXP 	text: autoDraw = False
+205.3324 	EXP 	card_shown: image = '5_of_hearts'
+205.3324 	EXP 	card_shown: autoDraw = True
+206.3218 	EXP 	New trial (rep=110, index=0): None
+206.3272 	EXP 	card_shown: autoDraw = False
+206.3272 	EXP 	text: autoDraw = True
+206.8188 	WARNING 	Requested image '3_of_hearts' not found but similar filename '3_of_hearts.png' exists. This will be used instead but changing the filename is advised.
+206.8306 	EXP 	text: autoDraw = False
+206.8306 	EXP 	card_shown: image = '3_of_hearts'
+206.8306 	EXP 	card_shown: autoDraw = True
+207.8197 	EXP 	New trial (rep=111, index=0): None
+207.8253 	EXP 	card_shown: autoDraw = False
+207.8253 	EXP 	text: autoDraw = True
+208.3229 	WARNING 	Requested image '6_of_spades' not found but similar filename '6_of_spades.png' exists. This will be used instead but changing the filename is advised.
+208.3311 	EXP 	text: autoDraw = False
+208.3311 	EXP 	card_shown: image = '6_of_spades'
+208.3311 	EXP 	card_shown: autoDraw = True
+209.3203 	EXP 	New trial (rep=112, index=0): None
+209.3258 	EXP 	card_shown: autoDraw = False
+209.3258 	EXP 	text: autoDraw = True
+209.8176 	WARNING 	Requested image 'ace_of_hearts' not found but similar filename 'ace_of_hearts.png' exists. This will be used instead but changing the filename is advised.
+209.8279 	EXP 	text: autoDraw = False
+209.8279 	EXP 	card_shown: image = 'ace_of_hearts'
+209.8279 	EXP 	card_shown: autoDraw = True
+210.8255 	EXP 	New trial (rep=113, index=0): None
+210.8283 	EXP 	card_shown: autoDraw = False
+210.8283 	EXP 	text: autoDraw = True
+211.3205 	WARNING 	Requested image '6_of_spades' not found but similar filename '6_of_spades.png' exists. This will be used instead but changing the filename is advised.
+211.3303 	EXP 	text: autoDraw = False
+211.3303 	EXP 	card_shown: image = '6_of_spades'
+211.3303 	EXP 	card_shown: autoDraw = True
+212.3202 	EXP 	New trial (rep=114, index=0): None
+212.3249 	EXP 	card_shown: autoDraw = False
+212.3249 	EXP 	text: autoDraw = True
+212.8175 	WARNING 	Requested image '9_of_diamonds' not found but similar filename '9_of_diamonds.png' exists. This will be used instead but changing the filename is advised.
+212.8276 	EXP 	text: autoDraw = False
+212.8276 	EXP 	card_shown: image = '9_of_diamonds'
+212.8276 	EXP 	card_shown: autoDraw = True
+213.8238 	EXP 	New trial (rep=115, index=0): None
+213.8288 	EXP 	card_shown: autoDraw = False
+213.8288 	EXP 	text: autoDraw = True
+214.3205 	WARNING 	Requested image '3_of_hearts' not found but similar filename '3_of_hearts.png' exists. This will be used instead but changing the filename is advised.
+214.3303 	EXP 	text: autoDraw = False
+214.3303 	EXP 	card_shown: image = '3_of_hearts'
+214.3303 	EXP 	card_shown: autoDraw = True
+215.3193 	EXP 	New trial (rep=116, index=0): None
+215.3250 	EXP 	card_shown: autoDraw = False
+215.3250 	EXP 	text: autoDraw = True
+215.8233 	WARNING 	Requested image '6_of_spades' not found but similar filename '6_of_spades.png' exists. This will be used instead but changing the filename is advised.
+215.8323 	EXP 	text: autoDraw = False
+215.8323 	EXP 	card_shown: image = '6_of_spades'
+215.8323 	EXP 	card_shown: autoDraw = True
+216.8237 	EXP 	New trial (rep=117, index=0): None
+216.8272 	EXP 	card_shown: autoDraw = False
+216.8272 	EXP 	text: autoDraw = True
+217.3187 	WARNING 	Requested image '9_of_diamonds' not found but similar filename '9_of_diamonds.png' exists. This will be used instead but changing the filename is advised.
+217.3284 	EXP 	text: autoDraw = False
+217.3284 	EXP 	card_shown: image = '9_of_diamonds'
+217.3284 	EXP 	card_shown: autoDraw = True
+218.3184 	EXP 	New trial (rep=118, index=0): None
+218.3236 	EXP 	card_shown: autoDraw = False
+218.3236 	EXP 	text: autoDraw = True
+218.8219 	WARNING 	Requested image 'ace_of_hearts' not found but similar filename 'ace_of_hearts.png' exists. This will be used instead but changing the filename is advised.
+218.8321 	EXP 	text: autoDraw = False
+218.8321 	EXP 	card_shown: image = 'ace_of_hearts'
+218.8321 	EXP 	card_shown: autoDraw = True
+219.8221 	EXP 	New trial (rep=119, index=0): None
+219.8269 	EXP 	card_shown: autoDraw = False
+219.8269 	EXP 	text: autoDraw = True
+220.3186 	WARNING 	Requested image '4_of_spades' not found but similar filename '4_of_spades.png' exists. This will be used instead but changing the filename is advised.
+220.3284 	EXP 	text: autoDraw = False
+220.3284 	EXP 	card_shown: image = '4_of_spades'
+220.3284 	EXP 	card_shown: autoDraw = True
+221.3178 	EXP 	New trial (rep=120, index=0): None
+221.3240 	EXP 	card_shown: autoDraw = False
+221.3240 	EXP 	text: autoDraw = True
+221.8232 	WARNING 	Requested image 'king_of_diamonds' not found but similar filename 'king_of_diamonds.png' exists. This will be used instead but changing the filename is advised.
+221.8327 	EXP 	text: autoDraw = False
+221.8327 	EXP 	card_shown: image = 'king_of_diamonds'
+221.8327 	EXP 	card_shown: autoDraw = True
+222.8244 	EXP 	New trial (rep=121, index=0): None
+222.8282 	EXP 	card_shown: autoDraw = False
+222.8282 	EXP 	text: autoDraw = True
+223.3206 	WARNING 	Requested image '8_of_clubs' not found but similar filename '8_of_clubs.png' exists. This will be used instead but changing the filename is advised.
+223.3307 	EXP 	text: autoDraw = False
+223.3307 	EXP 	card_shown: image = '8_of_clubs'
+223.3307 	EXP 	card_shown: autoDraw = True
+224.3208 	EXP 	New trial (rep=122, index=0): None
+224.3254 	EXP 	card_shown: autoDraw = False
+224.3254 	EXP 	text: autoDraw = True
+224.8172 	WARNING 	Requested image '8_of_clubs' not found but similar filename '8_of_clubs.png' exists. This will be used instead but changing the filename is advised.
+224.8271 	EXP 	text: autoDraw = False
+224.8271 	EXP 	card_shown: image = '8_of_clubs'
+224.8271 	EXP 	card_shown: autoDraw = True
+225.8224 	EXP 	New trial (rep=123, index=0): None
+225.8279 	EXP 	card_shown: autoDraw = False
+225.8279 	EXP 	text: autoDraw = True
+226.3194 	WARNING 	Requested image 'king_of_diamonds' not found but similar filename 'king_of_diamonds.png' exists. This will be used instead but changing the filename is advised.
+226.3283 	EXP 	text: autoDraw = False
+226.3283 	EXP 	card_shown: image = 'king_of_diamonds'
+226.3283 	EXP 	card_shown: autoDraw = True
+227.3174 	EXP 	New trial (rep=124, index=0): None
+227.3230 	EXP 	card_shown: autoDraw = False
+227.3230 	EXP 	text: autoDraw = True
+227.8237 	WARNING 	Requested image '4_of_spades' not found but similar filename '4_of_spades.png' exists. This will be used instead but changing the filename is advised.
+227.8334 	EXP 	text: autoDraw = False
+227.8334 	EXP 	card_shown: image = '4_of_spades'
+227.8334 	EXP 	card_shown: autoDraw = True
+228.8189 	EXP 	New trial (rep=125, index=0): None
+228.8233 	EXP 	card_shown: autoDraw = False
+228.8233 	EXP 	text: autoDraw = True
+229.3206 	WARNING 	Requested image '5_of_hearts' not found but similar filename '5_of_hearts.png' exists. This will be used instead but changing the filename is advised.
+229.3304 	EXP 	text: autoDraw = False
+229.3304 	EXP 	card_shown: image = '5_of_hearts'
+229.3304 	EXP 	card_shown: autoDraw = True
+230.3211 	EXP 	New trial (rep=126, index=0): None
+230.3258 	EXP 	card_shown: autoDraw = False
+230.3258 	EXP 	text: autoDraw = True
+230.8185 	WARNING 	Requested image '8_of_clubs' not found but similar filename '8_of_clubs.png' exists. This will be used instead but changing the filename is advised.
+230.8381 	EXP 	text: autoDraw = False
+230.8381 	EXP 	card_shown: image = '8_of_clubs'
+230.8381 	EXP 	card_shown: autoDraw = True
+231.8215 	EXP 	New trial (rep=127, index=0): None
+231.8261 	EXP 	card_shown: autoDraw = False
+231.8261 	EXP 	text: autoDraw = True
+232.3186 	WARNING 	Requested image '9_of_diamonds' not found but similar filename '9_of_diamonds.png' exists. This will be used instead but changing the filename is advised.
+232.3276 	EXP 	text: autoDraw = False
+232.3276 	EXP 	card_shown: image = '9_of_diamonds'
+232.3276 	EXP 	card_shown: autoDraw = True
+233.3183 	EXP 	New trial (rep=128, index=0): None
+233.3239 	EXP 	card_shown: autoDraw = False
+233.3239 	EXP 	text: autoDraw = True
+233.8207 	WARNING 	Requested image '4_of_spades' not found but similar filename '4_of_spades.png' exists. This will be used instead but changing the filename is advised.
+233.8305 	EXP 	text: autoDraw = False
+233.8305 	EXP 	card_shown: image = '4_of_spades'
+233.8305 	EXP 	card_shown: autoDraw = True
+234.8209 	EXP 	New trial (rep=129, index=0): None
+234.8256 	EXP 	card_shown: autoDraw = False
+234.8256 	EXP 	text: autoDraw = True
+235.3186 	WARNING 	Requested image '4_of_spades' not found but similar filename '4_of_spades.png' exists. This will be used instead but changing the filename is advised.
+235.3282 	EXP 	text: autoDraw = False
+235.3282 	EXP 	card_shown: image = '4_of_spades'
+235.3282 	EXP 	card_shown: autoDraw = True
+236.3181 	EXP 	New trial (rep=130, index=0): None
+236.3236 	EXP 	card_shown: autoDraw = False
+236.3236 	EXP 	text: autoDraw = True
+236.8211 	WARNING 	Requested image '5_of_hearts' not found but similar filename '5_of_hearts.png' exists. This will be used instead but changing the filename is advised.
+236.8294 	EXP 	text: autoDraw = False
+236.8294 	EXP 	card_shown: image = '5_of_hearts'
+236.8294 	EXP 	card_shown: autoDraw = True
+237.8195 	EXP 	New trial (rep=131, index=0): None
+237.8242 	EXP 	card_shown: autoDraw = False
+237.8242 	EXP 	text: autoDraw = True
+238.3219 	WARNING 	Requested image '7_of_spades' not found but similar filename '7_of_spades.png' exists. This will be used instead but changing the filename is advised.
+238.3314 	EXP 	text: autoDraw = False
+238.3314 	EXP 	card_shown: image = '7_of_spades'
+238.3314 	EXP 	card_shown: autoDraw = True
+239.3211 	EXP 	New trial (rep=132, index=0): None
+239.3265 	EXP 	card_shown: autoDraw = False
+239.3265 	EXP 	text: autoDraw = True
+239.8187 	WARNING 	Requested image '7_of_spades' not found but similar filename '7_of_spades.png' exists. This will be used instead but changing the filename is advised.
+239.8280 	EXP 	text: autoDraw = False
+239.8280 	EXP 	card_shown: image = '7_of_spades'
+239.8280 	EXP 	card_shown: autoDraw = True
+240.8181 	EXP 	New trial (rep=133, index=0): None
+240.8231 	EXP 	card_shown: autoDraw = False
+240.8231 	EXP 	text: autoDraw = True
+241.3204 	WARNING 	Requested image '3_of_hearts' not found but similar filename '3_of_hearts.png' exists. This will be used instead but changing the filename is advised.
+241.3304 	EXP 	text: autoDraw = False
+241.3304 	EXP 	card_shown: image = '3_of_hearts'
+241.3304 	EXP 	card_shown: autoDraw = True
+242.3199 	EXP 	New trial (rep=134, index=0): None
+242.3248 	EXP 	card_shown: autoDraw = False
+242.3248 	EXP 	text: autoDraw = True
+242.8172 	WARNING 	Requested image '8_of_clubs' not found but similar filename '8_of_clubs.png' exists. This will be used instead but changing the filename is advised.
+242.8274 	EXP 	text: autoDraw = False
+242.8274 	EXP 	card_shown: image = '8_of_clubs'
+242.8274 	EXP 	card_shown: autoDraw = True
+243.8237 	EXP 	New trial (rep=135, index=0): None
+243.8289 	EXP 	card_shown: autoDraw = False
+243.8289 	EXP 	text: autoDraw = True
+244.3204 	WARNING 	Requested image 'king_of_diamonds' not found but similar filename 'king_of_diamonds.png' exists. This will be used instead but changing the filename is advised.
+244.3300 	EXP 	text: autoDraw = False
+244.3300 	EXP 	card_shown: image = 'king_of_diamonds'
+244.3300 	EXP 	card_shown: autoDraw = True
+245.3197 	EXP 	New trial (rep=136, index=0): None
+245.3250 	EXP 	card_shown: autoDraw = False
+245.3250 	EXP 	text: autoDraw = True
+245.8172 	WARNING 	Requested image '5_of_hearts' not found but similar filename '5_of_hearts.png' exists. This will be used instead but changing the filename is advised.
+245.8271 	EXP 	text: autoDraw = False
+245.8271 	EXP 	card_shown: image = '5_of_hearts'
+245.8271 	EXP 	card_shown: autoDraw = True
+246.8225 	EXP 	New trial (rep=137, index=0): None
+246.8280 	EXP 	card_shown: autoDraw = False
+246.8280 	EXP 	text: autoDraw = True
+247.3194 	WARNING 	Requested image '7_of_spades' not found but similar filename '7_of_spades.png' exists. This will be used instead but changing the filename is advised.
+247.3276 	EXP 	text: autoDraw = False
+247.3276 	EXP 	card_shown: image = '7_of_spades'
+247.3276 	EXP 	card_shown: autoDraw = True
+248.3238 	EXP 	New trial (rep=138, index=0): None
+248.3290 	EXP 	card_shown: autoDraw = False
+248.3290 	EXP 	text: autoDraw = True
+248.8204 	WARNING 	Requested image '7_of_spades' not found but similar filename '7_of_spades.png' exists. This will be used instead but changing the filename is advised.
+248.8301 	EXP 	text: autoDraw = False
+248.8301 	EXP 	card_shown: image = '7_of_spades'
+248.8301 	EXP 	card_shown: autoDraw = True
+249.8201 	EXP 	New trial (rep=139, index=0): None
+249.8255 	EXP 	card_shown: autoDraw = False
+249.8255 	EXP 	text: autoDraw = True
+250.3230 	WARNING 	Requested image '3_of_hearts' not found but similar filename '3_of_hearts.png' exists. This will be used instead but changing the filename is advised.
+250.3327 	EXP 	text: autoDraw = False
+250.3327 	EXP 	card_shown: image = '3_of_hearts'
+250.3327 	EXP 	card_shown: autoDraw = True
+251.3253 	EXP 	New trial (rep=140, index=0): None
+251.3283 	EXP 	card_shown: autoDraw = False
+251.3283 	EXP 	text: autoDraw = True
+251.8205 	WARNING 	Requested image 'king_of_diamonds' not found but similar filename 'king_of_diamonds.png' exists. This will be used instead but changing the filename is advised.
+251.8312 	EXP 	text: autoDraw = False
+251.8312 	EXP 	card_shown: image = 'king_of_diamonds'
+251.8312 	EXP 	card_shown: autoDraw = True
+252.8207 	EXP 	New trial (rep=141, index=0): None
+252.8260 	EXP 	card_shown: autoDraw = False
+252.8260 	EXP 	text: autoDraw = True
+253.3179 	WARNING 	Requested image '8_of_clubs' not found but similar filename '8_of_clubs.png' exists. This will be used instead but changing the filename is advised.
+253.3287 	EXP 	text: autoDraw = False
+253.3287 	EXP 	card_shown: image = '8_of_clubs'
+253.3287 	EXP 	card_shown: autoDraw = True
+254.3181 	EXP 	New trial (rep=142, index=0): None
+254.3235 	EXP 	card_shown: autoDraw = False
+254.3235 	EXP 	text: autoDraw = True
+254.8211 	WARNING 	Requested image 'ace_of_hearts' not found but similar filename 'ace_of_hearts.png' exists. This will be used instead but changing the filename is advised.
+254.8313 	EXP 	text: autoDraw = False
+254.8313 	EXP 	card_shown: image = 'ace_of_hearts'
+254.8313 	EXP 	card_shown: autoDraw = True
+255.8213 	EXP 	New trial (rep=143, index=0): None
+255.8267 	EXP 	card_shown: autoDraw = False
+255.8267 	EXP 	text: autoDraw = True
+256.3183 	WARNING 	Requested image 'ace_of_hearts' not found but similar filename 'ace_of_hearts.png' exists. This will be used instead but changing the filename is advised.
+256.3285 	EXP 	text: autoDraw = False
+256.3285 	EXP 	card_shown: image = 'ace_of_hearts'
+256.3285 	EXP 	card_shown: autoDraw = True
+257.3182 	EXP 	New trial (rep=144, index=0): None
+257.3237 	EXP 	card_shown: autoDraw = False
+257.3237 	EXP 	text: autoDraw = True
+257.8211 	WARNING 	Requested image 'ace_of_hearts' not found but similar filename 'ace_of_hearts.png' exists. This will be used instead but changing the filename is advised.
+257.8300 	EXP 	text: autoDraw = False
+257.8300 	EXP 	card_shown: image = 'ace_of_hearts'
+257.8300 	EXP 	card_shown: autoDraw = True
+258.8191 	EXP 	New trial (rep=145, index=0): None
+258.8247 	EXP 	card_shown: autoDraw = False
+258.8247 	EXP 	text: autoDraw = True
+259.3246 	WARNING 	Requested image 'ace_of_hearts' not found but similar filename 'ace_of_hearts.png' exists. This will be used instead but changing the filename is advised.
+259.3345 	EXP 	text: autoDraw = False
+259.3345 	EXP 	card_shown: image = 'ace_of_hearts'
+259.3345 	EXP 	card_shown: autoDraw = True
+260.3178 	EXP 	New trial (rep=146, index=0): None
+260.3233 	EXP 	card_shown: autoDraw = False
+260.3233 	EXP 	text: autoDraw = True
+260.8218 	WARNING 	Requested image '7_of_spades' not found but similar filename '7_of_spades.png' exists. This will be used instead but changing the filename is advised.
+260.8416 	EXP 	text: autoDraw = False
+260.8416 	EXP 	card_shown: image = '7_of_spades'
+260.8416 	EXP 	card_shown: autoDraw = True
+261.8185 	EXP 	New trial (rep=147, index=0): None
+261.8241 	EXP 	card_shown: autoDraw = False
+261.8241 	EXP 	text: autoDraw = True
+262.3215 	WARNING 	Requested image 'king_of_diamonds' not found but similar filename 'king_of_diamonds.png' exists. This will be used instead but changing the filename is advised.
+262.3316 	EXP 	text: autoDraw = False
+262.3316 	EXP 	card_shown: image = 'king_of_diamonds'
+262.3316 	EXP 	card_shown: autoDraw = True
+263.3209 	EXP 	New trial (rep=148, index=0): None
+263.3264 	EXP 	card_shown: autoDraw = False
+263.3264 	EXP 	text: autoDraw = True
+263.8179 	WARNING 	Requested image '5_of_hearts' not found but similar filename '5_of_hearts.png' exists. This will be used instead but changing the filename is advised.
+263.8278 	EXP 	text: autoDraw = False
+263.8278 	EXP 	card_shown: image = '5_of_hearts'
+263.8278 	EXP 	card_shown: autoDraw = True
+264.8244 	EXP 	New trial (rep=149, index=0): None
+264.8282 	EXP 	card_shown: autoDraw = False
+264.8282 	EXP 	text: autoDraw = True
+265.3205 	WARNING 	Requested image '6_of_spades' not found but similar filename '6_of_spades.png' exists. This will be used instead but changing the filename is advised.
+265.3314 	EXP 	text: autoDraw = False
+265.3314 	EXP 	card_shown: image = '6_of_spades'
+265.3314 	EXP 	card_shown: autoDraw = True
+266.3209 	EXP 	New trial (rep=150, index=0): None
+266.3258 	EXP 	card_shown: autoDraw = False
+266.3258 	EXP 	text: autoDraw = True
+266.8177 	WARNING 	Requested image '4_of_spades' not found but similar filename '4_of_spades.png' exists. This will be used instead but changing the filename is advised.
+266.8278 	EXP 	text: autoDraw = False
+266.8278 	EXP 	card_shown: image = '4_of_spades'
+266.8278 	EXP 	card_shown: autoDraw = True
+267.8249 	EXP 	New trial (rep=151, index=0): None
+267.8283 	EXP 	card_shown: autoDraw = False
+267.8283 	EXP 	text: autoDraw = True
+268.3206 	WARNING 	Requested image '7_of_spades' not found but similar filename '7_of_spades.png' exists. This will be used instead but changing the filename is advised.
+268.3298 	EXP 	text: autoDraw = False
+268.3298 	EXP 	card_shown: image = '7_of_spades'
+268.3298 	EXP 	card_shown: autoDraw = True
+269.3193 	EXP 	New trial (rep=152, index=0): None
+269.3249 	EXP 	card_shown: autoDraw = False
+269.3249 	EXP 	text: autoDraw = True
+269.8247 	WARNING 	Requested image '8_of_clubs' not found but similar filename '8_of_clubs.png' exists. This will be used instead but changing the filename is advised.
+269.8347 	EXP 	text: autoDraw = False
+269.8347 	EXP 	card_shown: image = '8_of_clubs'
+269.8347 	EXP 	card_shown: autoDraw = True
+270.8180 	EXP 	New trial (rep=153, index=0): None
+270.8236 	EXP 	card_shown: autoDraw = False
+270.8236 	EXP 	text: autoDraw = True
+271.3210 	WARNING 	Requested image '8_of_clubs' not found but similar filename '8_of_clubs.png' exists. This will be used instead but changing the filename is advised.
+271.3304 	EXP 	text: autoDraw = False
+271.3304 	EXP 	card_shown: image = '8_of_clubs'
+271.3304 	EXP 	card_shown: autoDraw = True
+272.3195 	EXP 	New trial (rep=154, index=0): None
+272.3251 	EXP 	card_shown: autoDraw = False
+272.3251 	EXP 	text: autoDraw = True
+272.8226 	WARNING 	Requested image '4_of_spades' not found but similar filename '4_of_spades.png' exists. This will be used instead but changing the filename is advised.
+272.8315 	EXP 	text: autoDraw = False
+272.8315 	EXP 	card_shown: image = '4_of_spades'
+272.8315 	EXP 	card_shown: autoDraw = True
+273.8210 	EXP 	New trial (rep=155, index=0): None
+273.8260 	EXP 	card_shown: autoDraw = False
+273.8260 	EXP 	text: autoDraw = True
+274.3186 	WARNING 	Requested image '5_of_hearts' not found but similar filename '5_of_hearts.png' exists. This will be used instead but changing the filename is advised.
+274.3286 	EXP 	text: autoDraw = False
+274.3286 	EXP 	card_shown: image = '5_of_hearts'
+274.3286 	EXP 	card_shown: autoDraw = True
+275.3182 	EXP 	New trial (rep=156, index=0): None
+275.3252 	EXP 	card_shown: autoDraw = False
+275.3252 	EXP 	text: autoDraw = True
+275.8214 	WARNING 	Requested image '4_of_spades' not found but similar filename '4_of_spades.png' exists. This will be used instead but changing the filename is advised.
+275.8312 	EXP 	text: autoDraw = False
+275.8312 	EXP 	card_shown: image = '4_of_spades'
+275.8312 	EXP 	card_shown: autoDraw = True
+276.8212 	EXP 	New trial (rep=157, index=0): None
+276.8262 	EXP 	card_shown: autoDraw = False
+276.8262 	EXP 	text: autoDraw = True
+277.3182 	WARNING 	Requested image 'king_of_diamonds' not found but similar filename 'king_of_diamonds.png' exists. This will be used instead but changing the filename is advised.
+277.3280 	EXP 	text: autoDraw = False
+277.3280 	EXP 	card_shown: image = 'king_of_diamonds'
+277.3280 	EXP 	card_shown: autoDraw = True
+278.3259 	EXP 	New trial (rep=158, index=0): None
+278.3285 	EXP 	card_shown: autoDraw = False
+278.3285 	EXP 	text: autoDraw = True
+278.8207 	WARNING 	Requested image '5_of_hearts' not found but similar filename '5_of_hearts.png' exists. This will be used instead but changing the filename is advised.
+278.8306 	EXP 	text: autoDraw = False
+278.8306 	EXP 	card_shown: image = '5_of_hearts'
+278.8306 	EXP 	card_shown: autoDraw = True
+279.8202 	EXP 	New trial (rep=159, index=0): None
+279.8255 	EXP 	card_shown: autoDraw = False
+279.8255 	EXP 	text: autoDraw = True
+280.3246 	WARNING 	Requested image '5_of_hearts' not found but similar filename '5_of_hearts.png' exists. This will be used instead but changing the filename is advised.
+280.3440 	EXP 	text: autoDraw = False
+280.3440 	EXP 	card_shown: image = '5_of_hearts'
+280.3440 	EXP 	card_shown: autoDraw = True
+281.3200 	EXP 	New trial (rep=160, index=0): None
+281.3253 	EXP 	card_shown: autoDraw = False
+281.3253 	EXP 	text: autoDraw = True
+281.8246 	WARNING 	Requested image 'ace_of_hearts' not found but similar filename 'ace_of_hearts.png' exists. This will be used instead but changing the filename is advised.
+281.8342 	EXP 	text: autoDraw = False
+281.8342 	EXP 	card_shown: image = 'ace_of_hearts'
+281.8342 	EXP 	card_shown: autoDraw = True
+282.8175 	EXP 	New trial (rep=161, index=0): None
+282.8243 	EXP 	card_shown: autoDraw = False
+282.8243 	EXP 	text: autoDraw = True
+283.3222 	WARNING 	Requested image '8_of_clubs' not found but similar filename '8_of_clubs.png' exists. This will be used instead but changing the filename is advised.
+283.3320 	EXP 	text: autoDraw = False
+283.3320 	EXP 	card_shown: image = '8_of_clubs'
+283.3320 	EXP 	card_shown: autoDraw = True
+284.3224 	EXP 	New trial (rep=162, index=0): None
+284.3268 	EXP 	card_shown: autoDraw = False
+284.3268 	EXP 	text: autoDraw = True
+284.8186 	WARNING 	Requested image '7_of_spades' not found but similar filename '7_of_spades.png' exists. This will be used instead but changing the filename is advised.
+284.8278 	EXP 	text: autoDraw = False
+284.8278 	EXP 	card_shown: image = '7_of_spades'
+284.8278 	EXP 	card_shown: autoDraw = True
+285.8175 	EXP 	New trial (rep=163, index=0): None
+285.8240 	EXP 	card_shown: autoDraw = False
+285.8240 	EXP 	text: autoDraw = True
+286.3216 	WARNING 	Requested image '6_of_spades' not found but similar filename '6_of_spades.png' exists. This will be used instead but changing the filename is advised.
+286.3321 	EXP 	text: autoDraw = False
+286.3321 	EXP 	card_shown: image = '6_of_spades'
+286.3321 	EXP 	card_shown: autoDraw = True
+287.3213 	EXP 	New trial (rep=164, index=0): None
+287.3267 	EXP 	card_shown: autoDraw = False
+287.3267 	EXP 	text: autoDraw = True
+287.8181 	WARNING 	Requested image '5_of_hearts' not found but similar filename '5_of_hearts.png' exists. This will be used instead but changing the filename is advised.
+287.8271 	EXP 	text: autoDraw = False
+287.8271 	EXP 	card_shown: image = '5_of_hearts'
+287.8271 	EXP 	card_shown: autoDraw = True
+288.8246 	EXP 	New trial (rep=165, index=0): None
+288.8282 	EXP 	card_shown: autoDraw = False
+288.8282 	EXP 	text: autoDraw = True
+289.3207 	WARNING 	Requested image '6_of_spades' not found but similar filename '6_of_spades.png' exists. This will be used instead but changing the filename is advised.
+289.3304 	EXP 	text: autoDraw = False
+289.3304 	EXP 	card_shown: image = '6_of_spades'
+289.3304 	EXP 	card_shown: autoDraw = True
+290.3204 	EXP 	New trial (rep=166, index=0): None
+290.3251 	EXP 	card_shown: autoDraw = False
+290.3251 	EXP 	text: autoDraw = True
+290.8245 	WARNING 	Requested image '7_of_spades' not found but similar filename '7_of_spades.png' exists. This will be used instead but changing the filename is advised.
+290.8347 	EXP 	text: autoDraw = False
+290.8347 	EXP 	card_shown: image = '7_of_spades'
+290.8347 	EXP 	card_shown: autoDraw = True
+291.8201 	EXP 	New trial (rep=167, index=0): None
+291.8238 	EXP 	card_shown: autoDraw = False
+291.8238 	EXP 	text: autoDraw = True
+292.3233 	WARNING 	Requested image '8_of_clubs' not found but similar filename '8_of_clubs.png' exists. This will be used instead but changing the filename is advised.
+292.3419 	EXP 	text: autoDraw = False
+292.3419 	EXP 	card_shown: image = '8_of_clubs'
+292.3419 	EXP 	card_shown: autoDraw = True
+293.3198 	EXP 	New trial (rep=168, index=0): None
+293.3238 	EXP 	card_shown: autoDraw = False
+293.3238 	EXP 	text: autoDraw = True
+293.8224 	WARNING 	Requested image '5_of_hearts' not found but similar filename '5_of_hearts.png' exists. This will be used instead but changing the filename is advised.
+293.8331 	EXP 	text: autoDraw = False
+293.8331 	EXP 	card_shown: image = '5_of_hearts'
+293.8331 	EXP 	card_shown: autoDraw = True
+294.8226 	EXP 	New trial (rep=169, index=0): None
+294.8279 	EXP 	card_shown: autoDraw = False
+294.8279 	EXP 	text: autoDraw = True
+295.3203 	WARNING 	Requested image '3_of_hearts' not found but similar filename '3_of_hearts.png' exists. This will be used instead but changing the filename is advised.
+295.3305 	EXP 	text: autoDraw = False
+295.3305 	EXP 	card_shown: image = '3_of_hearts'
+295.3305 	EXP 	card_shown: autoDraw = True
+296.3207 	EXP 	New trial (rep=170, index=0): None
+296.3254 	EXP 	card_shown: autoDraw = False
+296.3254 	EXP 	text: autoDraw = True
+296.8186 	WARNING 	Requested image '9_of_diamonds' not found but similar filename '9_of_diamonds.png' exists. This will be used instead but changing the filename is advised.
+296.8286 	EXP 	text: autoDraw = False
+296.8286 	EXP 	card_shown: image = '9_of_diamonds'
+296.8286 	EXP 	card_shown: autoDraw = True
+297.8192 	EXP 	New trial (rep=171, index=0): None
+297.8239 	EXP 	card_shown: autoDraw = False
+297.8239 	EXP 	text: autoDraw = True
+298.3175 	WARNING 	Requested image '4_of_spades' not found but similar filename '4_of_spades.png' exists. This will be used instead but changing the filename is advised.
+298.3271 	EXP 	text: autoDraw = False
+298.3271 	EXP 	card_shown: image = '4_of_spades'
+298.3271 	EXP 	card_shown: autoDraw = True
+299.3222 	EXP 	New trial (rep=172, index=0): None
+299.3278 	EXP 	card_shown: autoDraw = False
+299.3278 	EXP 	text: autoDraw = True
+299.8192 	WARNING 	Requested image 'king_of_diamonds' not found but similar filename 'king_of_diamonds.png' exists. This will be used instead but changing the filename is advised.
+299.8277 	EXP 	text: autoDraw = False
+299.8277 	EXP 	card_shown: image = 'king_of_diamonds'
+299.8277 	EXP 	card_shown: autoDraw = True
+300.8179 	EXP 	New trial (rep=173, index=0): None
+300.8248 	EXP 	card_shown: autoDraw = False
+300.8248 	EXP 	text: autoDraw = True
+301.3206 	WARNING 	Requested image '6_of_spades' not found but similar filename '6_of_spades.png' exists. This will be used instead but changing the filename is advised.
+301.3301 	EXP 	text: autoDraw = False
+301.3301 	EXP 	card_shown: image = '6_of_spades'
+301.3301 	EXP 	card_shown: autoDraw = True
+302.3201 	EXP 	New trial (rep=174, index=0): None
+302.3249 	EXP 	card_shown: autoDraw = False
+302.3249 	EXP 	text: autoDraw = True
+302.8226 	WARNING 	Requested image '8_of_clubs' not found but similar filename '8_of_clubs.png' exists. This will be used instead but changing the filename is advised.
+302.8329 	EXP 	text: autoDraw = False
+302.8329 	EXP 	card_shown: image = '8_of_clubs'
+302.8329 	EXP 	card_shown: autoDraw = True
+303.8224 	EXP 	New trial (rep=175, index=0): None
+303.8277 	EXP 	card_shown: autoDraw = False
+303.8277 	EXP 	text: autoDraw = True
+304.3196 	WARNING 	Requested image '5_of_hearts' not found but similar filename '5_of_hearts.png' exists. This will be used instead but changing the filename is advised.
+304.3296 	EXP 	text: autoDraw = False
+304.3296 	EXP 	card_shown: image = '5_of_hearts'
+304.3296 	EXP 	card_shown: autoDraw = True
+305.3190 	EXP 	New trial (rep=176, index=0): None
+305.3245 	EXP 	card_shown: autoDraw = False
+305.3245 	EXP 	text: autoDraw = True
+305.8220 	WARNING 	Requested image 'king_of_diamonds' not found but similar filename 'king_of_diamonds.png' exists. This will be used instead but changing the filename is advised.
+305.8320 	EXP 	text: autoDraw = False
+305.8320 	EXP 	card_shown: image = 'king_of_diamonds'
+305.8320 	EXP 	card_shown: autoDraw = True
+306.8213 	EXP 	New trial (rep=177, index=0): None
+306.8268 	EXP 	card_shown: autoDraw = False
+306.8268 	EXP 	text: autoDraw = True
+307.3185 	WARNING 	Requested image '3_of_hearts' not found but similar filename '3_of_hearts.png' exists. This will be used instead but changing the filename is advised.
+307.3286 	EXP 	text: autoDraw = False
+307.3286 	EXP 	card_shown: image = '3_of_hearts'
+307.3286 	EXP 	card_shown: autoDraw = True
+308.3182 	EXP 	New trial (rep=178, index=0): None
+308.3233 	EXP 	card_shown: autoDraw = False
+308.3233 	EXP 	text: autoDraw = True
+308.8214 	WARNING 	Requested image '8_of_clubs' not found but similar filename '8_of_clubs.png' exists. This will be used instead but changing the filename is advised.
+308.8311 	EXP 	text: autoDraw = False
+308.8311 	EXP 	card_shown: image = '8_of_clubs'
+308.8311 	EXP 	card_shown: autoDraw = True
+309.8205 	EXP 	New trial (rep=179, index=0): None
+309.8260 	EXP 	card_shown: autoDraw = False
+309.8260 	EXP 	text: autoDraw = True
+310.3175 	WARNING 	Requested image '9_of_diamonds' not found but similar filename '9_of_diamonds.png' exists. This will be used instead but changing the filename is advised.
+310.3268 	EXP 	text: autoDraw = False
+310.3268 	EXP 	card_shown: image = '9_of_diamonds'
+310.3268 	EXP 	card_shown: autoDraw = True
+311.3288 	EXP 	card_shown: autoDraw = False
+311.3965 	EXP 	window1: mouseVisible = True
