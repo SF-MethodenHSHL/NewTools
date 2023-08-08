@@ -1,0 +1,58 @@
+1.8889 	ERROR 	Support for the `sounddevice` audio backend is not available this session. Please install `psychopy-sounddevice` and restart the session to enable support.
+5.0931 	WARNING 	User requested fullscreen with size [1707 1067], but screen is actually [2560, 1600]. Using actual size
+5.4529 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001E6F8913D60>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001E6F8913D00>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001E6F8913A00>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001E680270850>, multiSample=False, name='window1', numSamples=2, pos=(-2560, 0), screen=0, size=array([2560, 1600]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+5.4530 	EXP 	window1: mouseVisible = True
+5.4530 	EXP 	window1: backgroundImage = ''
+5.4530 	EXP 	window1: backgroundFit = 'none'
+5.4530 	EXP 	window1: mouseVisible = False
+5.4530 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+5.4530 	EXP 	window1: recordFrameIntervals = False
+5.5133 	EXP 	window1: recordFrameIntervals = True
+5.5801 	EXP 	Screen (0) actual frame rate measured at 164.74Hz
+5.5801 	EXP 	window1: recordFrameIntervals = False
+7.1407 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+7.1582 	EXP 	Created card_1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='card_1', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2  , 0.266]), texRes=128.0, units='height', win=Window(...))
+7.1691 	EXP 	Created card_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='card_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2  , 0.266]), texRes=128.0, units='height', win=Window(...))
+7.1909 	EXP 	Created card_3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='card_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2  , 0.266]), texRes=128.0, units='height', win=Window(...))
+7.2029 	EXP 	Created card_4 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='card_4', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2  , 0.266]), texRes=128.0, units='height', win=Window(...))
+7.2186 	EXP 	Created card_5 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='card_5', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2  , 0.266]), texRes=128.0, units='height', win=Window(...))
+7.2393 	EXP 	Created card_6 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='card_6', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2  , 0.266]), texRes=128.0, units='height', win=Window(...))
+7.2519 	EXP 	Created card_7 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-8.0, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='card_7', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2  , 0.266]), texRes=128.0, units='height', win=Window(...))
+7.2650 	EXP 	Created card_8 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-9.0, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='card_8', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2  , 0.266]), texRes=128.0, units='height', win=Window(...))
+7.2780 	EXP 	Created card_9 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-10.0, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='card_9', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2  , 0.266]), texRes=128.0, units='height', win=Window(...))
+7.2791 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+7.2969 	EXP 	Created card_shown = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='card_shown', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([300., 400.]), texRes=128.0, units='pix', win=Window(...))
+7.3961 	EXP 	text_2: autoDraw = True
+7.9230 	DATA 	Mouse: Left button down, pos=(1967,1334)
+7.9944 	DATA 	Mouse:  Left button up, pos=(1967,1334)
+8.7821 	WARNING 	Requested image '7_of_hearts' not found but similar filename '7_of_hearts.png' exists. This will be used instead but changing the filename is advised.
+8.7989 	WARNING 	Requested image 'king_of_spades' not found but similar filename 'king_of_spades.png' exists. This will be used instead but changing the filename is advised.
+8.8164 	WARNING 	Requested image '4_of_diamonds' not found but similar filename '4_of_diamonds.png' exists. This will be used instead but changing the filename is advised.
+8.8335 	WARNING 	Requested image '5_of_hearts' not found but similar filename '5_of_hearts.png' exists. This will be used instead but changing the filename is advised.
+8.8510 	WARNING 	Requested image '4_of_spades' not found but similar filename '4_of_spades.png' exists. This will be used instead but changing the filename is advised.
+8.8681 	WARNING 	Requested image '3_of_hearts' not found but similar filename '3_of_hearts.png' exists. This will be used instead but changing the filename is advised.
+8.8854 	WARNING 	Requested image '5_of_clubs' not found but similar filename '5_of_clubs.png' exists. This will be used instead but changing the filename is advised.
+8.9027 	WARNING 	Requested image '8_of_clubs' not found but similar filename '8_of_clubs.png' exists. This will be used instead but changing the filename is advised.
+8.9196 	WARNING 	Requested image 'king_of_clubs' not found but similar filename 'king_of_clubs.png' exists. This will be used instead but changing the filename is advised.
+8.9398 	DATA 	Keypress: space
+8.9445 	EXP 	text_2: autoDraw = False
+8.9445 	EXP 	card_1: image = '7_of_hearts'
+8.9445 	EXP 	card_2: image = 'king_of_spades'
+8.9445 	EXP 	card_3: image = '4_of_diamonds'
+8.9445 	EXP 	card_4: image = '5_of_hearts'
+8.9445 	EXP 	card_5: image = '4_of_spades'
+8.9445 	EXP 	card_6: image = '3_of_hearts'
+8.9445 	EXP 	card_7: image = '5_of_clubs'
+8.9445 	EXP 	card_8: image = '8_of_clubs'
+8.9445 	EXP 	card_9: image = 'king_of_clubs'
+8.9445 	EXP 	card_1: autoDraw = True
+8.9445 	EXP 	card_2: autoDraw = True
+8.9445 	EXP 	card_3: autoDraw = True
+8.9445 	EXP 	card_4: autoDraw = True
+8.9445 	EXP 	card_5: autoDraw = True
+8.9445 	EXP 	card_6: autoDraw = True
+8.9445 	EXP 	card_7: autoDraw = True
+8.9445 	EXP 	card_8: autoDraw = True
+8.9445 	EXP 	card_9: autoDraw = True
+21.9099 	DATA 	Keypress: escape
+22.6662 	EXP 	window1: mouseVisible = True
